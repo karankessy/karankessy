@@ -4,3 +4,37 @@ title = 'My New Hugo Site'
 
 
 theme = "nightfall"
+
+
+[params]
+user = "karan"
+hostname = "throws"
+
+  [params.author]
+    name = "Karan KC"
+    email = "itskarankc@gmail.com"
+
+[[params.social]]
+key = 0
+name = "facebook"
+url = "https://facebook.com/karankessy"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
+aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/karankessy"
+
+[[params.social]]
+key = 2
+name = "github"
+url = "https://www.github.com/karankessy"
+rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:itskarankc@gmail.com"
+
