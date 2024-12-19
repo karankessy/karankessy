@@ -17,10 +17,8 @@ hostname = "throws"
 [[params.social]]
 key = 0
 name = "facebook"
-url = "https://facebook.com/karankessy"
-icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
-target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
-aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+url = "https://www.facebook.com/karankessy"
+rel = "me"  # You can also add rel to social link
 
 [[params.social]]
 key = 1
