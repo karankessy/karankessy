@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://localhost:52137/hugo-texify3/sitemap.xml

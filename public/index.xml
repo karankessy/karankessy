@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Karan</title>
+    <link>http://localhost:52137/hugo-texify3/</link>
+    <description>Recent content on Karan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Dec 2024 23:32:56 +0545</lastBuildDate><atom:link href="http://localhost:52137/hugo-texify3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://localhost:52137/hugo-texify3/posts/first/</link>
+      <pubDate>Thu, 19 Dec 2024 23:32:49 +0545</pubDate>
+      
+      <guid>http://localhost:52137/hugo-texify3/posts/first/</guid>
+      <description>&lt;h1 id=&#34;first-heading-of-the-first-file&#34;&gt;First Heading of the First File&lt;/h1&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
