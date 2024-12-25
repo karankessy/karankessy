@@ -5,7 +5,7 @@ description: Explore how MIT's innovative PhotoGuard tool can protect your photo
 tags: [AI, Deepfakes, Cybersecurity, Digital Identity, PhotoGuard, Online Safety]
 ---
 
-{{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png&w=500&q=80" title="Morphed Sample" >}}
+{{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png&auto=format&fit=crop&w=500&q=80" title="Morphed Sample" >}}
 
 
 # Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation
