@@ -5,7 +5,8 @@ description: Explore how MIT's innovative PhotoGuard tool can protect your photo
 tags: [AI, Deepfakes, Cybersecurity, Digital Identity, PhotoGuard, Online Safety]
 ---
 
-![Image](https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png)
+{{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png&w=500&q=80" title="Morphed Sample" >}}
+
 
 # Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation
 
@@ -40,8 +41,7 @@ If someone tries to use an editing app based on a generative AI model, such as S
 Here, you need to take a proactive approach in protecting your digital space. Before you share any images on the internet, you should run the images through **PhotoGuard**.
 
 Here’s how you can do it:
-
-[![Tutorial Video](https://img.youtube.com/vi/aTC59Q6ZDNM/0.jpg)](https://www.youtube.com/watch?v=aTC59Q6ZDNM&t=87s)
+{{< youtube aTC59Q6ZDNM >}}
 
 > **Note:** Upload your image for protecting it from being noticeably edited, turn on the **Immunization Button**, and use the immunized photo to upload on the Internet.
 
