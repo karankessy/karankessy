@@ -15,7 +15,7 @@ copyright = "© Karan KC"
   posts = "/:year/:month/:title"
 
 [params]
-  subtitle = "Hello this is Karan KC, Khuru Khuru padh nakara hai besi"
+  subtitle = ""
   wpm = 250
   statisticsEnabled = true
   referenceBookWords = 11500.0
@@ -100,6 +100,16 @@ copyright = "© Karan KC"
   name = "Tags & Stats"
   url = "/tags"
   weight = 4
+
+[[params.social]]
+  name = "Github"
+  icon = "github"
+  url = "https://facebook.com/karankessy/"
+
+[[params.social]]
+  name = "Github"
+  icon = "github"
+  url = "https://linkedin.com/in/karankessy/"
 
 [[params.social]]
   name = "Github"
