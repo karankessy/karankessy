@@ -2,7 +2,7 @@
 title: "Recent Surge in Phishing Attacks Targeting Character Assassination"
 date: 2023-06-25T00:00:00+05:30
 description: "Explore the deceptive tactics of Facebook phishing attacks targeting character assassination. Learn how to safeguard your digital presence and protect your reputation from these cunning cybercriminals."
-tags: [Phishing, Cybersecurity, Awareness]
+tags: [Phishing, Cybersafety, Awareness]
 ---
 
 ![AllegedPhoto](https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg)
@@ -46,6 +46,6 @@ It’s time to rise up and defend your digital realm. Knowledge and strategic th
 
 So, the sinister Facebook phishing attack we have uncovered is a stark reminder of the ever-evolving dangers lurking within the digital landscape.
 
-Share this vital information through social media, online forums, or even simple conversations. Teach others to be cautious, to question suspicious links, and to never provide sensitive information without absolute certainty. Let’s join communities like **Syecon** and **Pentester Nepal** to stay resilient, informed, and ready to combat the deceit that seeks to harm us.
+Share this vital information through social media, online forums, or even simple conversations. Teach others to be cautious, to question suspicious links, and to never provide sensitive information without absolute certainty. Let’s join communities like [Syecon](https://discord.gg/k7nHjEuTHq) and [Pentester Nepal](https://www.facebook.com/groups/pentesternepal) to stay resilient, informed, and ready to combat the deceit that seeks to harm us.
 
 Remember, in the face of darkness, knowledge is the light that guides us. Arm yourself, arm others, and let us triumph over the malevolent forces that threaten our digital world.
