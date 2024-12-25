@@ -1,6 +1,6 @@
 ---
 title: "Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation"
-date: 2018-03-18T12:13:30+05:30
+date: 2024-12-18T12:13:30+05:30
 tags: [AI, Deepfakes, Cybersecurity, Digital Identity, PhotoGuard, Online Safety]
 ---
 

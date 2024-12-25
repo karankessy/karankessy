@@ -1,6 +1,6 @@
 ---
 title: "Recent Surge in Phishing Attacks Targeting Character Assassination"
-date: 2023-06-25T00:00:00+05:30
+date: 2024-12-20T12:13:30+05:30
 description: "Explore the deceptive tactics of Facebook phishing attacks targeting character assassination. Learn how to safeguard your digital presence and protect your reputation from these cunning cybercriminals."
 tags: [Phishing, Cybersafety, Awareness]
 ---
