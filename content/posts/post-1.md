@@ -5,6 +5,9 @@ description: "Explore the deceptive tactics of Facebook phishing attacks targeti
 tags: [Phishing, Cybersecurity, Awareness]
 ---
 
+![AllegedPhoto](https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg)
+
+
 Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.
 
 Intrigued, you click on it, excited to see what they’ve shared.

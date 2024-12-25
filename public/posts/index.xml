@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Karan KC</title>
+    <title>Posts on Karan</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Karan KC</description>
+    <description>Recent content in Posts on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>
+      <link>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
+      <description>&lt;p&gt;&#xA;  &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg&#34; alt=&#34;AllegedPhoto&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Markdown Syntax Guide</title>
       <link>//localhost:1313/2023/06/markdown-syntax-guide/</link>
@@ -56,13 +63,6 @@
       <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/2018/03/fearlessness-how-to-stop-running-from-space/</guid>
       <description>&lt;p&gt;We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.&lt;/p&gt;&#xA;&lt;p&gt;We are afraid of empty space in our lives.&lt;/p&gt;&#xA;&lt;p&gt;The result is often a continual busyness, constant distraction and avoidance, lack of focus, lack of satisfaction with our lives.&lt;/p&gt;&#xA;&lt;p&gt;We run from silence. We run from the spaces between tasks and appointments. We run from solitude and stillness. We try to fill every second with activity, with something useful, as if silence and space are not valuable.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Primer: When You Have Too Much to Do</title>
-      <link>//localhost:1313/2018/03/primer-when-you-have-too-much-to-do/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-      <guid>//localhost:1313/2018/03/primer-when-you-have-too-much-to-do/</guid>
-      <description>&lt;p&gt;You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.&lt;/p&gt;&#xA;&lt;p&gt;It all keeps piling up, and it can feel overwhelming.&lt;/p&gt;&#xA;&lt;p&gt;How do you keep up with it all? How do you find focus and peace and get stuff accomplished when you have too much on your plate?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

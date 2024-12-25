@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Karan KC</title>
+    <title>Tags on Karan</title>
     <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on Karan KC</description>
+    <description>Recent content in Tags on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awareness</title>
+      <link>//localhost:1313/tags/awareness/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <guid>//localhost:1313/tags/awareness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>//localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <guid>//localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phishing</title>
+      <link>//localhost:1313/tags/phishing/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <guid>//localhost:1313/tags/phishing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Css</title>
       <link>//localhost:1313/tags/css/</link>
@@ -48,20 +69,6 @@
       <link>//localhost:1313/tags/space/</link>
       <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/tags/space/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Primer</title>
-      <link>//localhost:1313/tags/primer/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-      <guid>//localhost:1313/tags/primer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Todo</title>
-      <link>//localhost:1313/tags/todo/</link>
-      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-      <guid>//localhost:1313/tags/todo/</guid>
       <description></description>
     </item>
   </channel>

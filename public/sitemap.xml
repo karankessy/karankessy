@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/awareness/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/phishing/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/css/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/html/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/markdown/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/2023/06/markdown-syntax-guide/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/themes/</loc>
@@ -52,14 +64,5 @@
   </url><url>
     <loc>//localhost:1313/tags/space/</loc>
     <lastmod>2018-03-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/primer/</loc>
-    <lastmod>2018-03-18T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/2018/03/primer-when-you-have-too-much-to-do/</loc>
-    <lastmod>2018-03-18T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/todo/</loc>
-    <lastmod>2018-03-18T02:01:58+05:30</lastmod>
   </url>
 </urlset>

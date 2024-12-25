@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on Karan</title>
+    <link>//localhost:1313/tags/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Karan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>
+      <link>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
+      <description>&lt;p&gt;&#xA;  &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg&#34; alt=&#34;AllegedPhoto&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
