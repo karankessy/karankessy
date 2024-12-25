@@ -102,13 +102,13 @@ copyright = "© Karan KC"
   weight = 4
 
 [[params.social]]
-  name = "Github"
-  icon = "github"
+  name = "Facebook"
+  icon = "facebook"
   url = "https://facebook.com/karankessy/"
 
 [[params.social]]
-  name = "Github"
-  icon = "github"
+  name = "Linkedin"
+  icon = "linkedin"
   url = "https://linkedin.com/in/karankessy/"
 
 [[params.social]]
