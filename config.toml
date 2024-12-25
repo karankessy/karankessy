@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Karan KC"
+title = "Karan"
 ignoreErrors = ["error-remote-getjson"]
 ignoreLogs = ['warning-goldmark-raw-html']
 
@@ -9,7 +9,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   pagerSize = 10
   path = 'page'
 
-copyright = "© Karan KC"
+copyright = "© Karan"
 
 [permalinks]
   posts = "/:year/:month/:title"
