@@ -1,0 +1,141 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Karan KC"
+ignoreErrors = ["error-remote-getjson"]
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
+
+copyright = "© Karan KC"
+
+[permalinks]
+  posts = "/:year/:month/:title"
+
+[params]
+  subtitle = "Hello this is Karan KC, Khuru Khuru padh nakara hai besi"
+  wpm = 250
+  statisticsEnabled = true
+  referenceBookWords = 11500.0
+  referenceBook = "The Metamorphosis"
+  referenceAuthor = "Franz Kafka"
+  mode = "auto"
+  toc = "both"
+  enableTocTrunate = true
+  maxTags = 7
+  footers = [ 
+    "What Tiger King can teach us about x86 Assembly",
+    "10 Reasons why gcc SHOULD be re-written in JavaScript - You won't believe #8!",
+     "Why everyone should learn Binary - There are only 10 reasons!",
+    "Is Rust the new hipster Java? Here's what developers are saying.",
+    "How Docker Containers got stuck on a ship to Kubernetes!",
+    "AI that compiles code without introducing bugs – Myth or Reality?",
+    "I tried using vim - Now I'm trapped in insert mode forever!",
+    "Debugger or time machine? A guide to quantum debugging.",
+    "The mysterious tale of the Sysadmin who forgot the semicolon.",
+    "Emacs vs Vim: The Eternal War Nobody Wins.",
+    "5 Ways COBOL is making a surprising comeback (Number 4 will shock you!).",
+    "404 Not Found - How IT support made me question my existence.",
+    "Can GPUs run CryEngine while mining Bitcoin? Let’s find out!",
+    "The command that wiped my career: A cautionary tale of 'rm -rf /'.",
+    "When Python stopped indenting, the whole script fell apart!",
+    "MySQL walks into a bar and says: No SQL here, please.",
+    "10 reasons SSH is just the dark web in disguise.",
+    "The Terminal UI revolution - 'Nano FTW'.",
+    "Writing JavaScript frameworks nobody asked for - My journey.",
+    "Linux distributions as snacks: Why Arch Linux is clearly hot sauce.",
+    "Stack Overflow is secretly a brain-extension tool (scientists confirm!).",
+    "The great debate: Tabs vs Spaces, a psychological warfare.",
+    "Is C++ old or just retro? Let's settle this once and for all.",
+    "How I reinvented the wheel: Creating Yet Another To-Do App™.",
+    "DNS Explained in One Sentence: Magic!",
+    "The Y2K bug conspiracy theories: What programmers knew all along.",
+    "When CAPTCHA becomes sentient: A dystopian tech tale.",
+     "Why does Java wear glasses? Because it can’t C#!",
+    "10 reasons to stop blaming your code - Number 7 made me uninstall VS Code!",
+    "Wi-Fi names that will make your neighbors think twice about stealing your bandwidth.",
+    "Blockchain explained using a pizza analogy - Extra cheese included.",
+    "Debugging: The art of staring at a monitor until the bug fixes itself.",
+    "The day I replaced myself with a cron job - Automation level: Over 9000.",
+    "Git commit messages: When 'fixed stuff' just won't cut it anymore.",
+    "Tabs vs Spaces: The final boss battle nobody was ready for.",
+    "Why developers love dark mode: A shocking truth revealed!",
+    "Kernel panic: When Linux just can't take your code anymore.",
+    "Docker in production? Brace yourself, memes are coming.",
+    "I accidentally configured a firewall and locked myself out. Is this the ultimate security feature?",
+    "Why do programmers prefer forests? Because they can branch out!",
+    "The time I searched for recursion in Google and fell into a time loop.",
+    "Why SQL developers hate the outdoors - Too many joins and no indexes.",
+    "The curious case of the missing semicolon and the exploding codebase.",
+    "AI-generated bug reports: Coming soon to terrify your QA team.",
+    "Cloud computing for dogs: Is your pet prepared for the future?",
+    "Hacking 101: When your keyboard is louder than your code.",
+    "JavaScript frameworks in 2024: The game of Thrones analogy you need to read!",
+    "How Stack Overflow became the Wikipedia of wrong answers.",
+    "The tragic comedy of logging into root without knowing it.",
+    "Cybersecurity tips from your Grandma: Because humans are the weakest link.",
+    "Open source woes: When your pet project becomes a corporate staple.",
+    "Autocomplete and the case of the misunderstood programmer intent."
+  ]
+  github = "https://github.com/karankessy"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags & Stats"
+  url = "/tags"
+  weight = 4
+
+[[params.social]]
+  name = "Github"
+  icon = "github"
+  url = "https://github.com/karankessy/"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/karankessy/"
+
+[[params.social]]
+  name = "RSS"
+  icon = "rss"
+  url = "/index.xml"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "github"
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2
