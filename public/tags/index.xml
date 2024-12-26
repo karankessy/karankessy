@@ -6,27 +6,69 @@
     <description>Recent content in Tags on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 12:13:30 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awareness</title>
       <link>//localhost:1313/tags/awareness/</link>
-      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 20 Dec 2024 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/tags/awareness/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cybersecurity</title>
-      <link>//localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/cybersecurity/</guid>
+      <title>Cybersafety</title>
+      <link>//localhost:1313/tags/cybersafety/</link>
+      <pubDate>Fri, 20 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/cybersafety/</guid>
       <description></description>
     </item>
     <item>
       <title>Phishing</title>
       <link>//localhost:1313/tags/phishing/</link>
-      <pubDate>Sun, 25 Jun 2023 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 20 Dec 2024 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/tags/phishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>//localhost:1313/tags/ai/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>//localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deepfakes</title>
+      <link>//localhost:1313/tags/deepfakes/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/deepfakes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Identity</title>
+      <link>//localhost:1313/tags/digital-identity/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/digital-identity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Safety</title>
+      <link>//localhost:1313/tags/online-safety/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/online-safety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PhotoGuard</title>
+      <link>//localhost:1313/tags/photoguard/</link>
+      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/tags/photoguard/</guid>
       <description></description>
     </item>
     <item>
@@ -55,20 +97,6 @@
       <link>//localhost:1313/tags/themes/</link>
       <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/themes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Procrastinating</title>
-      <link>//localhost:1313/tags/procrastinating/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
-      <guid>//localhost:1313/tags/procrastinating/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Space</title>
-      <link>//localhost:1313/tags/space/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/space/</guid>
       <description></description>
     </item>
   </channel>

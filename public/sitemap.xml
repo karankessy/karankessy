@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/awareness/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/cybersecurity/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
-  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/phishing/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+    <lastmod>2024-12-28T12:13:30+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+    <lastmod>2024-12-28T12:13:30+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/2023/06/recent-surge-in-phishing-attacks-targeting-character-assassination/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+    <loc>//localhost:1313/tags/awareness/</loc>
+    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cybersafety/</loc>
+    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/phishing/</loc>
+    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/12/recent-surge-in-phishing-attacks-targeting-character-assassination/</loc>
+    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2023-06-25T00:00:00+05:30</lastmod>
+    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ai/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/deepfakes/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/digital-identity/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/online-safety/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/photoguard/</loc>
+    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+    <lastmod>2024-04-19T21:37:58+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/css/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
@@ -49,20 +73,5 @@
   </url><url>
     <loc>//localhost:1313/2020/12/getting-started-with-traveling-ultralight/</loc>
     <lastmod>2020-12-31T12:13:35+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/about/</loc>
-    <lastmod>2019-04-19T21:37:58+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/2018/03/how-i-learned-to-stop-procrastinating-love-letting-go/</loc>
-    <lastmod>2018-03-18T12:13:32+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/procrastinating/</loc>
-    <lastmod>2018-03-18T12:13:32+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/2018/03/fearlessness-how-to-stop-running-from-space/</loc>
-    <lastmod>2018-03-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/space/</loc>
-    <lastmod>2018-03-18T12:13:30+05:30</lastmod>
   </url>
 </urlset>
