@@ -6,9 +6,8 @@
 {{ $pages := where .Site.RegularPages "Type" "in" (default (slice "posts") .Site.Params.mainSections) }}
 <h1>Statistics</h1>
 {{ $totalWords := int ($scratch.Get "wordcount") }}
-<p><b>{{ $totalWords | lang.FormatNumberCustom 0 }}</b> words published over {{len $pages }} articles 
+<p><b>{{ $totalWords | lang.FormatNumberCustom 0 }}</b> words published over {{len $pages }} articles since
     {{- if $pages -}}
-        since
         {{ range last 1 $pages }}
             {{ .Date.Month }} {{ .Date.Year }}.
         {{ end }}
@@ -17,10 +16,10 @@
 
 {{ with .Site.Params.wpm }}
     {{ $readingMins := div (float $totalWords) (float .) }}
-    <p>Reading all that should take you about {{ math.Round $readingMins }} minutes
+    <p>Reading all that should take you about {{ math.Round $readingMins }} minutes.
         {{ if gt $readingMins 60 }}
-            (or ~{{ div $readingMins 60.0 | lang.FormatNumberCustom 1 }} hrs).
-        {{else}}.{{end}}
+            (or ~{{ div $readingMins 60.0 | lang.FormatNumberCustom 1 }} hrs)
+        {{else}}{{end}}
     </p>
 {{ end }}
 

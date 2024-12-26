@@ -2,91 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/awareness/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/cybersafety/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/phishing/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/2024/12/recent-surge-in-phishing-attacks-targeting-character-assassination/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-12-20T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/ai/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/cybersecurity/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/deepfakes/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/digital-identity/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/online-safety/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/photoguard/</loc>
-    <lastmod>2024-12-18T12:13:30+05:30</lastmod>
-  </url><url>
     <loc>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</loc>
     <lastmod>2024-12-12T12:13:30+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/arguments/</loc>
     <lastmod>2024-12-12T12:13:30+05:30</lastmod>
   </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-12-12T12:13:30+05:30</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/logical-analysis/</loc>
+    <lastmod>2024-12-12T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-12-12T12:13:30+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/reasoning/</loc>
     <lastmod>2024-12-12T12:13:30+05:30</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-12-12T12:13:30+05:30</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/thinking-skills/</loc>
     <lastmod>2024-12-12T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/f5-load-balancer/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/firewall-configuration/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/network-security/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/palo-alto/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/sip-protocol/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/technical-analysis/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/technical-troubleshooting/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/vkyc/</loc>
+    <lastmod>2024-11-26T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/devops/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/f5/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/load-balancing/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/network-administration/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/technical-infrastructure/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tmos/</loc>
+    <lastmod>2024-07-18T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/big-ip/</loc>
+    <lastmod>2024-07-03T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/configuration/</loc>
+    <lastmod>2024-07-03T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2024-07-03T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/device-trust/</loc>
+    <lastmod>2024-07-03T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</loc>
+    <lastmod>2024-07-03T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ltm/</loc>
+    <lastmod>2024-06-17T11:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/reject-virtual-server/</loc>
+    <lastmod>2024-06-17T11:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</loc>
+    <lastmod>2024-06-17T11:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/traffic-management/</loc>
+    <lastmod>2024-06-17T11:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/http-profile/</loc>
+    <lastmod>2024-06-09T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/network-performance/</loc>
+    <lastmod>2024-06-09T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/optimization/</loc>
+    <lastmod>2024-06-09T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</loc>
+    <lastmod>2024-06-09T10:30:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2024-04-19T21:37:58+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/ai/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/deepfakes/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/digital-identity/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/2023/06/markdown-syntax-guide/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/themes/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/online-safety/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/2023/06/floating-navigation-bar/</loc>
-    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/photoguard/</loc>
+    <lastmod>2024-04-18T12:13:30+05:45</lastmod>
   </url><url>
-    <loc>//localhost:1313/2021/07/hugo-shortcodes/</loc>
-    <lastmod>2021-07-04T12:13:36+05:30</lastmod>
+    <loc>//localhost:1313/tags/awareness/</loc>
+    <lastmod>2024-03-20T12:13:30+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/2021/05/typography/</loc>
-    <lastmod>2021-05-15T12:13:38+05:30</lastmod>
+    <loc>//localhost:1313/tags/cybersafety/</loc>
+    <lastmod>2024-03-20T12:13:30+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/2020/12/getting-started-with-traveling-ultralight/</loc>
-    <lastmod>2020-12-31T12:13:35+05:30</lastmod>
+    <loc>//localhost:1313/tags/phishing/</loc>
+    <lastmod>2024-03-20T12:13:30+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</loc>
+    <lastmod>2024-03-20T12:13:30+05:30</lastmod>
   </url>
 </urlset>

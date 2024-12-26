@@ -6,14 +6,21 @@
     <description>Recent content in Cybersecurity on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 12:13:30 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2024 10:00:00 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Understanding Trust Authorities in BIG-IP Systems: A Beginner&#39;s Guide</title>
+      <link>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</guid>
+      <description>&lt;p&gt;In the field of network security, trust isn’t just a word—it&amp;rsquo;s a structure, a foundation that keeps systems working seamlessly and securely. If you’re new to BIG-IP systems, understanding the concept of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt; is crucial. This guide walks you through the essentials, explaining the types of trust authorities and the considerations for setting them up effectively.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-types-of-trust-authorities&#34;&gt;The Types of Trust Authorities&lt;/h2&gt;&#xA;&lt;p&gt;When creating a device trust, you’ll encounter two primary types of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation</title>
-      <link>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
-      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
-      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;h1 id=&#34;immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation&#34;&gt;Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation&lt;/h1&gt;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;</description>
+      <link>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
+      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
