@@ -1,11 +1,11 @@
 ---
 title: "Recent Surge in Phishing Attacks Targeting Character Assassination"
-date: 2024-12-20T12:13:30+05:30
+date: 2024-03-20T12:13:30+05:30
 description: "Explore the deceptive tactics of Facebook phishing attacks targeting character assassination. Learn how to safeguard your digital presence and protect your reputation from these cunning cybercriminals."
 tags: [Phishing, Cybersafety, Awareness]
 ---
 
-{{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" title="Alleged Hacked!" >}}
+{{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=50" title="Alleged Hacked!" >}}
 
 
 Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.

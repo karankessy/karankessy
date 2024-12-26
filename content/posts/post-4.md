@@ -1,30 +1,49 @@
 ---
-title: "Getting Started with Traveling Ultralight"
-date: 2020-12-31T12:13:35+05:30
-description: "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
+title: "How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive"
+date: 2024-11-26T10:00:00+05:30
+description: A detailed exploration of how our team diagnosed and resolved persistent connectivity issues in our video KYC application, offering valuable insights for technical teams facing similar challenges.
+tags: [Technical Troubleshooting, vKYC, Palo Alto, Network Security, F5 Load Balancer, Firewall Configuration, SIP Protocol, Technical Analysis]
 ---
 
-I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.
+Ever had one of those technical problems that just keeps coming back like a persistent itch? That's exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.
 
-I was a little surprised, because though I’ve gotten that comment before, it’s become normal for me to travel with just a small bag (10 lbs. or less, usually), and I have friends who travel with even less. But then I remembered that I’m far from normal in this way.
+## The Mystery Begins
 
-I gave him a tip for getting started, and I recommend it for all of you, who want to travel light — or ultralight, as I call it, because for many people traveling light is taking a carry-on roller luggage. For me, having those roller bags is lugging too much, because you can run up stairs with it with ease, or carry it all over a city without worrying about stowing away your luggage somewhere first. It’s so much easier to travel ultralight.
+Our vKYC application was acting like a finicky door that wouldn't stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.
 
-Here’s the tip I gave him to get started: start by getting a small backpack (less than 20 liters) and then just travel with what fits in that.
+## Detective Work: The Network Trail
 
-That’s how to start. But you’ll probably want some guidance on what to put into the bag, and how to travel with so little. Here’s some guidance to get started:
+Our first move? We went full CSI on this one. We captured and analyzed network packets under different scenarios, and that's when things got interesting. When we bypassed our normal network path, everything worked smoothly - UDP and STUN packets were flowing like a well-orchestrated symphony. But throw our F5 load balancer into the mix? Complete silence. No UDP packets, no STUN packets, nothing.
 
-* I travel with a lightweight laptop (Macbook Air), a few clothes, my phone, earbuds and some charging cords, toiletries, and almost nothing else. A lightweight windbreaker for wind and light rain (Patagonia Houdini). An eye mask and ear plugs. A collapsible water bottle. My passport. That’s about it. No extra shoes. No books. No suit. No travel pillow. No extra camera other than my phone. I’m not sure what else everyone else brings, but none of that.
-* I bring clothes that I can wash in the sink or shower and that will dry overnight. Lightweight stuff that I can layer. Often they’re workout-style clothes or things from companies like Outlier or Patagonia that travel well. I don’t bring enough underwear or socks for every day of the trip, because I wash them every couple of days. I only bring one or two extra T-shirts, generally wearing the same two shirts the whole trip, even if it’s a month long. No one has ever once cared what I wear when I’m traveling.
-* I bring minimal toiletries: a small shaver for my head, razor, toothbrush, floss small tubes of toothpaste and shaving cream, deodorant, nail clippers, ibuprofen.
-* For cold places, I have thermal underwear and a couple long-sleeve layers (generally all Patagonia capilene stuff), and a beanie. I don’t usually go to places where it’s snowing (I don’t know why, maybe snow isn’t my thing), so I don’t have clothes to deal with that weather.
-* For warm places, I will bring flip flops and swim trunks, and leave most of the colder layers behind.
+## The Plot Thickens
 
-That’s enough for a monthlong trip, which I’ve done multiple times with this kind of setup. For a shorter trip of a few days, I might bring even less.
+Armed with these findings, we began our systematic investigation. Think of it as following breadcrumbs through a digital forest. Our trail led us through:
 
-I really love traveling this way, and am more than willing to sacrifice bringing extra things for the luxury of traveling lightweight.
+1. The F5 load balancer (our first suspect)
+2. The Palo Alto firewall (which was looking more suspicious by the minute)
+3. Various network paths that could be causing this digital traffic jam
 
-By the way, you don’t need much more than this kind of setup even in everyday life.
+## The Breakthrough Moment
 
-For more info on this, check out my Ultralight ebook, and my friend Tynan has a great book called Forever Nomad.
+After diving deep into the Palo Alto firewall logs (yes, as exciting as it sounds), we struck gold. The packets weren't even making it to our F5 load balancer - they were getting lost somewhere in the firewall maze.
 
+## Crafting the Solution
+
+Here's where things get interesting. We took a multi-step approach:
+
+First, we basically created a clone of our existing bypass network policy in the Palo Alto firewall. Think of it as creating a new path through our digital maze, but this time with careful consideration of where it needed to go.
+
+Then came the clever part - we integrated our F5 WAF security zone into the policy framework. It's like adding a new security checkpoint, but one that actually keeps traffic flowing smoothly.
+
+## The Final Twist
+
+The real breakthrough? It came down to the SIP protocol. Initially, we enabled the SIP protocol with the Application Layer Gateway (ALG) disabled, which acted like removing a roadblock. Later, we found we could disable the SIP protocol entirely - and surprisingly, everything worked even better!
+## Happy Ending
+
+The result? Our vKYC application now runs as smooth as butter. No more constant reconnections, no more frustrated users, just a seamless experience like it should have been from the start.
+
+## Key Takeaways
+
+What did we learn from this adventure? Sometimes, the solution to a complex problem lies in systematic investigation and being willing to question every component in your stack. In our case, what seemed like a simple connectivity issue led us through load balancers, firewalls, and protocol configurations before we found our answer.
+
+Remember: in the world of technical troubleshooting, every clue counts, and sometimes the solution might be hiding in the most unexpected place.

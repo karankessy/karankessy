@@ -6,22 +6,8 @@
     <description>Recent content in Posts on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2024 12:13:30 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 12:13:30 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>
-      <link>//localhost:1313/2024/12/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
-      <pubDate>Fri, 20 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/2024/12/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
-      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Alleged Hacked!&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation</title>
-      <link>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
-      <pubDate>Wed, 18 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/2024/12/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
-      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;h1 id=&#34;immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation&#34;&gt;Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation&lt;/h1&gt;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>A Guide to Analyzing and Evaluating Reasoning</title>
       <link>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</link>
@@ -30,39 +16,53 @@
       <description>&lt;h1 id=&#34;a-guide-to-analyzing-and-evaluating-reasoning&#34;&gt;A Guide to Analyzing and Evaluating Reasoning&lt;/h1&gt;&#xA;&lt;p&gt;In a world flooded with information, where anyone can create anything and present with or without any credibility, the ability to think analytically has become more critical than ever before. Most of the time our thinking occurs with little or no deliberate effort. In a nutshell, we could almost say we think without thinking. For instance, when offered a choice between black tea and milk tea, I can quickly and easily make a decision based on my personal preferences, without considering any other factors or engaging in critical thinking.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>//localhost:1313/2023/06/markdown-syntax-guide/</link>
-      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/2023/06/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</title>
+      <link>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
+      <description>&lt;p&gt;Ever had one of those technical problems that just keeps coming back like a persistent itch? That&amp;rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mystery-begins&#34;&gt;The Mystery Begins&lt;/h2&gt;&#xA;&lt;p&gt;Our vKYC application was acting like a finicky door that wouldn&amp;rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Floating Navigation bar</title>
-      <link>//localhost:1313/2023/06/floating-navigation-bar/</link>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/2023/06/floating-navigation-bar/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Try this example with &lt;code&gt;toc = &amp;quot;floating&amp;quot;&lt;/code&gt; and &lt;code&gt;toc = &amp;quot;static&amp;quot;&lt;/code&gt;!&lt;/p&gt;&#xA;&lt;h2 id=&#34;header&#34;&gt;Header&lt;/h2&gt;&#xA;&lt;h3 id=&#34;subitem&#34;&gt;Subitem&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum tempus odio eu consectetur.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subitem-1&#34;&gt;Subitem&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum tempus odio eu consectetur.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subitem-2&#34;&gt;Subitem&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum tempus odio eu consectetur.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subitem-3&#34;&gt;Subitem&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum tempus odio eu consectetur.&lt;/p&gt;</description>
+      <title>F5 TMOS Administration Essentials: Critical Concepts to be Remembered</title>
+      <link>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</guid>
+      <description>&lt;p&gt;Ever wondered what happens when a packet arrives at your F5 device? Let&amp;rsquo;s demystify the complex world of F5 TMOS administration and explore the crucial aspects that every administrator should have at their fingertips.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-life-of-a-packet-a-seven-step-journey&#34;&gt;The Life of a Packet: A Seven-Step Journey&lt;/h2&gt;&#xA;&lt;p&gt;Think of packet processing in F5 as a security checkpoint at an airport. Every packet goes through a specific order of processing, and understanding this flow is crucial for effective troubleshooting:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hugo shortcodes</title>
-      <link>//localhost:1313/2021/07/hugo-shortcodes/</link>
-      <pubDate>Sun, 04 Jul 2021 12:13:36 +0530</pubDate>
-      <guid>//localhost:1313/2021/07/hugo-shortcodes/</guid>
-      <description>&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;&#xA;&#xA;&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1350&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Dave Herring&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Dave Herring&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1350&amp;amp;q=80&#34; alt=&#34;Alt Text&#34; class=&#34;figcaption-img&#34;&gt;&#xA;    &lt;figcaption&gt;Dave Herring&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;github-gist&#34;&gt;Github Gist&lt;/h2&gt;&#xA;&lt;script src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h2 id=&#34;youtube-video&#34;&gt;Youtube video&lt;/h2&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h2&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;instagram&#34;&gt;Instagram&lt;/h2&gt;</description>
+      <title>Understanding Trust Authorities in BIG-IP Systems: A Beginner&#39;s Guide</title>
+      <link>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</guid>
+      <description>&lt;p&gt;In the field of network security, trust isn’t just a word—it&amp;rsquo;s a structure, a foundation that keeps systems working seamlessly and securely. If you’re new to BIG-IP systems, understanding the concept of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt; is crucial. This guide walks you through the essentials, explaining the types of trust authorities and the considerations for setting them up effectively.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-types-of-trust-authorities&#34;&gt;The Types of Trust Authorities&lt;/h2&gt;&#xA;&lt;p&gt;When creating a device trust, you’ll encounter two primary types of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Typography</title>
-      <link>//localhost:1313/2021/05/typography/</link>
-      <pubDate>Sat, 15 May 2021 12:13:38 +0530</pubDate>
-      <guid>//localhost:1313/2021/05/typography/</guid>
-      <description>&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;&#xA;&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;&#xA;&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;</description>
+      <title>Reject Virtual Servers in BIG-IP LTM: Purpose and Practical Use Cases</title>
+      <link>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
+      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
+      <description>&lt;p&gt;Efficiency is key in network security and traffic management. Imagine having a gatekeeper at the edge of your network who instantly identifies and blocks unwanted visitors, sparing you the hassle of unnecessary processing or resource consumption. That’s essentially the role of a &lt;strong&gt;Reject Virtual Server (VS)&lt;/strong&gt; in BIG-IP LTM.&lt;/p&gt;&#xA;&lt;p&gt;This blog dives into what makes a Reject Virtual Server unique, its practical use cases, and how it enhances network performance by efficiently handling undesired traffic.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Getting Started with Traveling Ultralight</title>
-      <link>//localhost:1313/2020/12/getting-started-with-traveling-ultralight/</link>
-      <pubDate>Thu, 31 Dec 2020 12:13:35 +0530</pubDate>
-      <guid>//localhost:1313/2020/12/getting-started-with-traveling-ultralight/</guid>
-      <description>&lt;p&gt;I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.&lt;/p&gt;&#xA;&lt;p&gt;I was a little surprised, because though I’ve gotten that comment before, it’s become normal for me to travel with just a small bag (10 lbs. or less, usually), and I have friends who travel with even less. But then I remembered that I’m far from normal in this way.&lt;/p&gt;</description>
+      <title>Performance HTTP Virtual Servers and the Fast HTTP Profile in BIG-IP</title>
+      <link>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
+      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
+      <description>&lt;p&gt;When we talk about application delivery, every microsecond counts. Whether you’re aiming to reduce latency or optimize backend connections, understanding the nuances of &lt;strong&gt;Performance HTTP Virtual Servers&lt;/strong&gt; and the &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt; in BIG-IP can make a significant difference. This guide breaks down these concepts, blending technical clarity with practical insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-performance-http-virtual-server&#34;&gt;What is a Performance HTTP Virtual Server?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Performance HTTP Virtual Server&lt;/strong&gt; is designed for speed. By default, it is assigned a &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt;, which is a leaner version of the standard HTTP profile. Together, they work to minimize backend connections and boost performance under specific traffic conditions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation</title>
+      <link>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
+      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>
+      <link>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
+      <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
+      <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=300&amp;amp;q=50&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Alleged Hacked!&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
