@@ -12,8 +12,8 @@ My work is an extension of how I see life. I focus on doing what matters, being 
 
 When I’m not working, you might find me lost in a book, reflecting on something simple yet profound, or enjoying quiet moments that remind me to slow down. At the end of the day, I believe in taking one step at a time—learning, building, and growing along the way.
 
-# Links:
-[Facebook](https://facebook.com/karankessy)
-[Instagram](https://instagram.com/_wd.erick)
-[Linkedin](https://linkedin.com/in/karankessy)
-[Github](https://github.com/karankessy)
+## Links:
+-[Facebook](https://facebook.com/karankessy)
+-[Instagram](https://instagram.com/_wd.erick)
+-[Linkedin](https://linkedin.com/in/karankessy)
+-[Github](https://github.com/karankessy)
