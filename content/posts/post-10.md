@@ -1,14 +1,11 @@
 ---
-title: "Post 10"
+title: Post 10
 date: 2024-9-26T15:41:15+05:45
 draft: true
----
-
----
-title: Threat Classification
-date: 2024-12-26T12:45:00+05:30
-description: Understanding the process of categorizing security risks based on severity and impact, including concepts like known-knowns, known-unknowns, unknown-knowns, and unknown-unknowns.
-tags: [Threat Classification, Security, Risk Management, Cybersecurity]
+tags:
+  - Cybersecurity
+  - Risk Management
+  - Classification
 ---
 
 ## Threat Classification
