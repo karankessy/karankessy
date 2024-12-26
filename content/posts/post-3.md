@@ -5,7 +5,6 @@ description: Here we explore the essential techniques for analyzing and evaluati
 tags: [Thinking Skills, Arguments, Logical Analysis, Reasoning]
 ---
 
-# A Guide to Analyzing and Evaluating Reasoning
 
 In a world flooded with information, where anyone can create anything and present with or without any credibility, the ability to think analytically has become more critical than ever before. Most of the time our thinking occurs with little or no deliberate effort. In a nutshell, we could almost say we think without thinking. For instance, when offered a choice between black tea and milk tea, I can quickly and easily make a decision based on my personal preferences, without considering any other factors or engaging in critical thinking.
 
