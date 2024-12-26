@@ -11,3 +11,9 @@ Life, to me, feels like a story—some chapters are slow and thoughtful, while o
 My work is an extension of how I see life. I focus on doing what matters, being honest with my efforts, and learning from those around me. I enjoy working with others, sharing ideas, and finding small yet ways to make things better.
 
 When I’m not working, you might find me lost in a book, reflecting on something simple yet profound, or enjoying quiet moments that remind me to slow down. At the end of the day, I believe in taking one step at a time—learning, building, and growing along the way.
+
+# Links:
+[Facebook]:(https://facebook.com/karankessy)
+[Instagram]:(https://instagram.com/_wd.erick)
+[Linkedin]:(https://linkedin.com/in/karankessy)
+[Github]:(https://github.com/karankessy)

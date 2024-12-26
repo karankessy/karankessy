@@ -15,7 +15,7 @@ copyright = "© Karan"
   posts = "/:year/:month/:title"
 
 [params]
-  subtitle = ""
+  subtitle = "Life, conversations, perspectives, cybersecurity, web technologies, and the little things that catch my interest."
   wpm = 250
   statisticsEnabled = true
   referenceBookWords = 11500.0
