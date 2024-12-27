@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post-11.md",
+                "file": "post-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post-11"
+              "title": "post-12"
             }
           }
         ]
@@ -93,7 +93,8 @@
               "title": "Tag Folder"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,8 +266,12 @@
   },
   "active": "756cd8f6433a6f1a",
   "lastOpenFiles": [
-    "post-10.md",
     "post-11.md",
+    "post-13.md",
+    "post-12.md",
+    "post-3.md",
+    "post-4.md",
+    "post-10.md",
     "post-1.md",
     "F5/Cert/F5 201/By Category.md",
     "F5/Cert/F5 201/201 Study Links.md",
@@ -301,14 +306,10 @@
     "Images/Pasted image 20241209160323.png",
     "Images/Pasted image 20241209160109.png",
     "F5/Resources/F5 Security Succeeding.md",
-    "WebSecurity/SSO 1.md",
     "Images/resolved.jpg",
     "Untitled 1",
     "Images/Pasted image 20241126195015.png",
     "F5/Resources",
-    "Drawing 2024-11-25 14.40.57.md",
-    "Drawing 2024-11-25 14.41.13.md",
-    "Drawing 2024-11-25 14.41.12.md",
     "F5/F5 Issue Solutions",
     "F5/Client"
   ]

@@ -6,14 +6,21 @@
     <description>Recent content on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 12:13:30 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 15:46:13 +0545</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineering behind Mutable and Immutable in Python</title>
+      <link>//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/</guid>
+      <description>&lt;p&gt;If you’ve been programming in Python, you’ve probably come across the terms &lt;em&gt;mutable&lt;/em&gt; and &lt;em&gt;immutable&lt;/em&gt;. These words might sound casual, but have you ever wondered how mutable is actually mutable? and immutable immutable? Its quite simple once you get the hang of it. Let&amp;rsquo;s break it down and look at the &amp;ldquo;how&amp;rdquo; and &amp;ldquo;why&amp;rdquo; behind these concepts.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-do-mutable-and-immutable-mean&#34;&gt;What Do Mutable and Immutable Mean?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mutable&lt;/strong&gt; means &lt;em&gt;changeable&lt;/em&gt;. Data types like lists, sets, and dictionaries can be modified after they are created.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt; means &lt;em&gt;unchangeable&lt;/em&gt;. Data types like strings, integers, and tuples cannot be altered once they are created.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now, here’s where it gets interesting: even if a data type is immutable, it doesn’t mean you can’t assign new values to a variable. Let’s go a bit further.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Guide to Analyzing and Evaluating Reasoning</title>
       <link>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</link>
       <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</guid>
-      <description>&lt;h1 id=&#34;a-guide-to-analyzing-and-evaluating-reasoning&#34;&gt;A Guide to Analyzing and Evaluating Reasoning&lt;/h1&gt;&#xA;&lt;p&gt;In a world flooded with information, where anyone can create anything and present with or without any credibility, the ability to think analytically has become more critical than ever before. Most of the time our thinking occurs with little or no deliberate effort. In a nutshell, we could almost say we think without thinking. For instance, when offered a choice between black tea and milk tea, I can quickly and easily make a decision based on my personal preferences, without considering any other factors or engaging in critical thinking.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In a world flooded with information, where anyone can create anything and present with or without any credibility, the ability to think analytically has become more critical than ever before. Most of the time our thinking occurs with little or no deliberate effort. In a nutshell, we could almost say we think without thinking. For instance, when offered a choice between black tea and milk tea, I can quickly and easily make a decision based on my personal preferences, without considering any other factors or engaging in critical thinking.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</title>
@@ -63,6 +70,13 @@
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
       <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Three Essential HTTP Routing Patterns</title>
+      <link>//localhost:1313/2024/04/three-essential-http-routing-patterns/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/2024/04/three-essential-http-routing-patterns/</guid>
+      <description>&lt;p&gt;HTTP routing is a fundamental concept in web development that determines how web applications handle and direct incoming requests. Let&amp;rsquo;s go through the three primary routing patterns that every web developer should understand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-host-based-routing&#34;&gt;1. Host-Based Routing&lt;/h2&gt;&#xA;&lt;p&gt;Host-based routing, also known as VHOST (Virtual Host) routing, is a pattern where multiple domain names point to the same server or endpoint. This approach is particularly useful for managing multiple services under different domains while utilizing the same infrastructure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>

@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 12:13:30 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 15:46:13 +0545</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutable</title>
+      <link>//localhost:1313/tags/immutable/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/tags/immutable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory Management</title>
+      <link>//localhost:1313/tags/memory-management/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/tags/memory-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mutable</title>
+      <link>//localhost:1313/tags/mutable/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/tags/mutable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>//localhost:1313/tags/programming/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>//localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arguments</title>
       <link>//localhost:1313/tags/arguments/</link>
@@ -212,6 +247,13 @@
       <description></description>
     </item>
     <item>
+      <title>Backend</title>
+      <link>//localhost:1313/tags/backend/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Deepfakes</title>
       <link>//localhost:1313/tags/deepfakes/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
@@ -226,6 +268,20 @@
       <description></description>
     </item>
     <item>
+      <title>Http</title>
+      <link>//localhost:1313/tags/http/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/tags/http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>//localhost:1313/tags/networking/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Online Safety</title>
       <link>//localhost:1313/tags/online-safety/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
@@ -237,6 +293,20 @@
       <link>//localhost:1313/tags/photoguard/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
       <guid>//localhost:1313/tags/photoguard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Routing</title>
+      <link>//localhost:1313/tags/routing/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/tags/routing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webdev</title>
+      <link>//localhost:1313/tags/webdev/</link>
+      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/tags/webdev/</guid>
       <description></description>
     </item>
     <item>
