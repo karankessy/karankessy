@@ -1,8 +1,11 @@
 ---
-title: "Recent Surge in Phishing Attacks Targeting Character Assassination"
+title: Recent Surge in Phishing Attacks Targeting Character Assassination
 date: 2024-03-20T12:13:30+05:30
-description: "Explore the deceptive tactics of Facebook phishing attacks targeting character assassination. Learn how to safeguard your digital presence and protect your reputation from these cunning cybercriminals."
-tags: [Phishing, Cybersafety, Awareness]
+description: Explore the deceptive tactics of Facebook phishing attacks targeting character assassination. Learn how to safeguard your digital presence and protect your reputation from these cunning cybercriminals.
+tags:
+  - Phishing
+  - Cybersafety
+  - Awareness
 ---
 
 {{< figure src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=50" title="Alleged Hacked!" >}}

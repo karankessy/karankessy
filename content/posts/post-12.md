@@ -87,5 +87,5 @@ At the heart of Python’s design lies its memory management system and here is 
 - **Mutable types** like lists and dictionaries store data in a memory buffer that can be altered directly.
 - **Immutable types** don’t allow changes to the data in memory. Instead, new memory is allocated for any modifications.
 
-This ability to allocate new memory or update existing memory is what makes mutability possible (or impossible) at its core.
+I didn’t explain much with examples and diagrams about mutability as it is quite easy and obvious after knowing immutability. This ability to allocate new memory or update existing memory is what makes mutability possible (or impossible) at its core.
 
