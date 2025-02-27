@@ -1,7 +1,7 @@
 ---
 title: "WebAssembly: Will this replace Docker ?"
 date: 2024-12-27T15:46:20+05:45
-draft: true
+draft: false
 description: WebAssembly vs Docker. WASM, a technology that revamped the way we thought about containerization.
 tags:
   - docker
