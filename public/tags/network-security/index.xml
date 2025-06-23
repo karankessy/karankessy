@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Security on Karan</title>
+    <link>//localhost:1313/tags/network-security/</link>
+    <description>Recent content in Network Security on Karan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2024 10:00:00 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/network-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</title>
+      <link>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
+      <description>&lt;p&gt;Ever had one of those technical problems that just keeps coming back like a persistent itch? That&amp;rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mystery-begins&#34;&gt;The Mystery Begins&lt;/h2&gt;&#xA;&lt;p&gt;Our vKYC application was acting like a finicky door that wouldn&amp;rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Trust Authorities in BIG-IP Systems: A Beginner&#39;s Guide</title>
+      <link>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</guid>
+      <description>&lt;p&gt;In the field of network security, trust isn’t just a word—it&amp;rsquo;s a structure, a foundation that keeps systems working seamlessly and securely. If you’re new to BIG-IP systems, understanding the concept of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt; is crucial. This guide walks you through the essentials, explaining the types of trust authorities and the considerations for setting them up effectively.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-types-of-trust-authorities&#34;&gt;The Types of Trust Authorities&lt;/h2&gt;&#xA;&lt;p&gt;When creating a device trust, you’ll encounter two primary types of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reject Virtual Servers in BIG-IP LTM: Purpose and Practical Use Cases</title>
+      <link>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
+      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
+      <guid>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
+      <description>&lt;p&gt;Efficiency is key in network security and traffic management. Imagine having a gatekeeper at the edge of your network who instantly identifies and blocks unwanted visitors, sparing you the hassle of unnecessary processing or resource consumption. That’s essentially the role of a &lt;strong&gt;Reject Virtual Server (VS)&lt;/strong&gt; in BIG-IP LTM.&lt;/p&gt;&#xA;&lt;p&gt;This blog dives into what makes a Reject Virtual Server unique, its practical use cases, and how it enhances network performance by efficiently handling undesired traffic.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

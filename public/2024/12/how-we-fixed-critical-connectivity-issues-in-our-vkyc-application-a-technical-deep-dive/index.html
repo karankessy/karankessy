@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive - Karan</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive">
+  <meta itemprop="description" content="A detailed exploration of how our team diagnosed and resolved persistent connectivity issues in our video KYC application, offering valuable insights for technical teams facing similar challenges.">
+  <meta itemprop="datePublished" content="2024-12-26T10:00:00+05:30">
+  <meta itemprop="dateModified" content="2024-12-26T10:00:00+05:30">
+  <meta itemprop="wordCount" content="513">
+  <meta itemprop="keywords" content="Technical Troubleshooting,VKYC,Palo Alto,Network Security,F5 Load Balancer,Firewall Configuration,SIP Protocol,Technical Analysis"><meta property="og:url" content="//localhost:1313/2024/12/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/">
+  <meta property="og:site_name" content="Karan">
+  <meta property="og:title" content="How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive">
+  <meta property="og:description" content="A detailed exploration of how our team diagnosed and resolved persistent connectivity issues in our video KYC application, offering valuable insights for technical teams facing similar challenges.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-26T10:00:00+05:30">
+    <meta property="article:modified_time" content="2024-12-26T10:00:00+05:30">
+    <meta property="article:tag" content="Technical Troubleshooting">
+    <meta property="article:tag" content="VKYC">
+    <meta property="article:tag" content="Palo Alto">
+    <meta property="article:tag" content="Network Security">
+    <meta property="article:tag" content="F5 Load Balancer">
+    <meta property="article:tag" content="Firewall Configuration">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive">
+  <meta name="twitter:description" content="A detailed exploration of how our team diagnosed and resolved persistent connectivity issues in our video KYC application, offering valuable insights for technical teams facing similar challenges.">
+<link rel="stylesheet" type="text/css" media="screen" href="//localhost:1313/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="//localhost:1313/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="//localhost:1313/css/dark.css" />
+
+	<script src="//localhost:1313/js/feather.min.js"></script>
+	
+		<script src="//localhost:1313/js/main.js"></script>
+</head>
+
+
+<body>
+
+
+	
+	<div class="container-wide wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="//localhost:1313/">Karan</a></h1>
+	<div class="site-description"><p>Life, conversations, perspectives, cybersecurity, web technologies, and the little things that catch my interest.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://facebook.com/karankessy/" title="Facebook"><i data-feather="facebook"></i></a></li><li><a href="https://linkedin.com/in/karankessy/" title="Linkedin"><i data-feather="linkedin"></i></a></li><li><a href="https://github.com/karankessy/" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/karankessy/" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags &amp; Stats</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		
+<div class="article-nav" id="article-nav-id">
+    <div class="post">
+        <div class="post-header">
+    
+    <div class="meta">
+        <div class="date">
+            <span class="day">26</span>
+            <span class="rest">Dec 2024</span>
+        </div>
+    </div>
+    
+    <div class="matter">
+        <h1 class="title">How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</h1>
+    </div>
+</div>
+
+
+        
+        
+        <aside class="toc" id="static-toc">
+            
+        </aside>
+        
+
+        <p>Ever had one of those technical problems that just keeps coming back like a persistent itch? That&rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.</p>
+<h2 id="the-mystery-begins">The Mystery Begins</h2>
+<p>Our vKYC application was acting like a finicky door that wouldn&rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.</p>
+<h2 id="detective-work-the-network-trail">Detective Work: The Network Trail</h2>
+<p>Our first move? We went full CSI on this one. We captured and analyzed network packets under different scenarios, and that&rsquo;s when things got interesting. When we bypassed our normal network path, everything worked smoothly - UDP and STUN packets were flowing like a well-orchestrated symphony. But throw our F5 load balancer into the mix? Complete silence. No UDP packets, no STUN packets, nothing.</p>
+<h2 id="the-plot-thickens">The Plot Thickens</h2>
+<p>Armed with these findings, we began our systematic investigation. Think of it as following breadcrumbs through a digital forest. Our trail led us through:</p>
+<ol>
+<li>The F5 load balancer (our first suspect)</li>
+<li>The Palo Alto firewall (which was looking more suspicious by the minute)</li>
+<li>Various network paths that could be causing this digital traffic jam</li>
+</ol>
+<h2 id="the-breakthrough-moment">The Breakthrough Moment</h2>
+<p>After diving deep into the Palo Alto firewall logs (yes, as exciting as it sounds), we struck gold. The packets weren&rsquo;t even making it to our F5 load balancer - they were getting lost somewhere in the firewall maze.</p>
+<h2 id="crafting-the-solution">Crafting the Solution</h2>
+<p>Here&rsquo;s where things get interesting. We took a multi-step approach:</p>
+<p>First, we basically created a clone of our existing bypass network policy in the Palo Alto firewall. Think of it as creating a new path through our digital maze, but this time with careful consideration of where it needed to go.</p>
+<p>Then came the clever part - we integrated our F5 WAF security zone into the policy framework. It&rsquo;s like adding a new security checkpoint, but one that actually keeps traffic flowing smoothly.</p>
+<h2 id="the-final-twist">The Final Twist</h2>
+<p>The real breakthrough? It came down to the SIP protocol. Initially, we enabled the SIP protocol with the Application Layer Gateway (ALG) disabled, which acted like removing a roadblock. Later, we found we could disable the SIP protocol entirely - and surprisingly, everything worked even better!</p>
+<h2 id="happy-ending">Happy Ending</h2>
+<p>The result? Our vKYC application now runs as smooth as butter. No more constant reconnections, no more frustrated users, just a seamless experience like it should have been from the start.</p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>What did we learn from this adventure? Sometimes, the solution to a complex problem lies in systematic investigation and being willing to question every component in your stack. In our case, what seemed like a simple connectivity issue led us through load balancers, firewalls, and protocol configurations before we found our answer.</p>
+<p>Remember: in the world of technical troubleshooting, every clue counts, and sometimes the solution might be hiding in the most unexpected place.</p>
+
+
+    </div>
+    <nav class="hide-on-mobile section-nav">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#the-mystery-begins">The Mystery Begins</a></li>
+    <li><a href="#detective-work-the-network-trail">Detective Work: The Network Trail</a></li>
+    <li><a href="#the-plot-thickens">The Plot Thickens</a></li>
+    <li><a href="#the-breakthrough-moment">The Breakthrough Moment</a></li>
+    <li><a href="#crafting-the-solution">Crafting the Solution</a></li>
+    <li><a href="#the-final-twist">The Final Twist</a></li>
+    <li><a href="#happy-ending">Happy Ending</a></li>
+    <li><a href="#key-takeaways">Key Takeaways</a></li>
+  </ol>
+</nav>
+    </nav>
+</div>
+<div class="post">
+    <hr class="footer-separator" />
+<div class="tags">
+    
+    
+    <ul class="flat">
+        
+        
+        <li class="tag-li"><a href="/tags/technical-troubleshooting">Technical Troubleshooting</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/vkyc">vKYC</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/palo-alto">Palo Alto</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/network-security">Network Security</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/f5-load-balancer">F5 Load Balancer</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/firewall-configuration">Firewall Configuration</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/sip-protocol">SIP Protocol</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/technical-analysis">Technical Analysis</a>
+        </li>
+        
+    </ul>
+    
+    
+</div>
+
+
+<div class="back">
+    <a href="https://github.com/karankessy/blob/master/content/posts%5cpost-4.md" title="github"><i
+            data-feather="github"></i> Edit this on GitHub</a>
+</div>
+
+
+<div class="back">
+    <a href="//localhost:1313/"><span aria-hidden="true">← Back</span></a>
+</div>
+
+
+<div class="back">
+    
+    
+    Next time, we'll talk about <i>"Hacking 101: When your keyboard is louder than your code."</i>
+    
+    
+</div>
+
+</div>
+
+	</div>
+	
+
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2024 </div>
+		
+	</nav>
+</div><script>feather.replace()</script>
+	
+	<script>
+    var enableTruncate =  true 
+    var filterDepth = false;
+    const MAX_DEPTH = 9; 
+
+    
+    window.addEventListener('DOMContentLoaded', () => {
+        const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+            entries.reverse().forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                if (entry.intersectionRatio > 0) {
+                    var selected = document.querySelectorAll(`nav li a[href="#${id}"]`)
+                    if (selected != null) {
+                        selected.forEach(s => {
+                            if (s != null) {
+                                var depth = getDepth(s.parentElement);
+                                if (filterDepth && depth <= MAX_DEPTH) {
+                                    clearActiveStatesInTableOfContents();
+                                    s.parentElement.classList.add('active')
+                                }
+                            } else if (!filterDepth) {
+                                clearActiveStatesInTableOfContents();
+                                s.parentElement.classList.add('active');
+                            }
+                        }
+                        )
+                    }
+
+                }
+            });
+        });
+        document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]').forEach((section) => {
+            observerForTableOfContentActiveState.observe(section);
+        });
+
+    });
+
+    
+    function isVisible(elem) {
+        if (!(elem instanceof Element)) return false; 
+        const style = getComputedStyle(elem);
+        if (style.display === 'none') return false;
+        if (style.visibility !== 'visible') return false;
+        if (style.opacity < 0.1) return false;
+        if (elem.offsetWidth + elem.offsetHeight + elem.getBoundingClientRect().height +
+            elem.getBoundingClientRect().width === 0) {
+            return false;
+        }
+        const elemCenter = {
+            x: elem.getBoundingClientRect().left + elem.offsetWidth / 2,
+            y: elem.getBoundingClientRect().top + elem.offsetHeight / 2
+        };
+        if (elemCenter.x < 0) return false;
+        if (elemCenter.x > (document.documentElement.clientWidth || window.innerWidth)) return false;
+        if (elemCenter.y < 0) return false;
+        if (elemCenter.y > (document.documentElement.clientHeight || window.innerHeight)) return false;
+        let pointContainer = document.elementFromPoint(elemCenter.x, elemCenter.y);
+        do {
+            if (pointContainer === elem) return true;
+        } while (pointContainer = pointContainer.parentNode);
+        return false;
+    }
+
+
+    function clearActiveStatesInTableOfContents() {
+        document.querySelectorAll('nav li').forEach((section) => {
+            section.classList.remove('active');
+        });
+    }
+
+    function getDepth(parentElement) {
+        var depth = 0;
+        while (parentElement !== null && parentElement.tagName.toLowerCase() !== 'ul') {
+            depth++;
+            parentElement = parentElement.parentElement;
+        }
+        return depth;
+    }
+
+    function navItems() {
+        
+        var nestedListItems = document.querySelectorAll('nav nav li a');
+        return Array.from(nestedListItems).filter(listItem =>
+            listItem.href != null && listItem.hash.startsWith("#")
+        )
+    }
+
+    function lasItemInNavBarVisible() {
+        var lastItem = navItems().slice(-1)[0]
+        return isVisible(lastItem)
+    }
+
+
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        if (!enableTruncate) return;
+        var navBar = navItems()
+        console.log(navBar)
+        if (!lasItemInNavBarVisible()) {
+            filterDepth = true;
+            
+            navBar.forEach(function (listItem) {
+                var depth = getDepth(listItem.parentElement);
+
+                if (depth > MAX_DEPTH) {
+                    listItem.parentElement.classList.add('depth-nested');
+                }
+            });
+        }
+
+    });
+
+</script>
+
+	
+</body>
+
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Engineering behind Mutable and Immutable in Python - Karan</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="Engineering behind Mutable and Immutable in Python">
+  <meta itemprop="description" content="Explore the core engineering concepts behind mutable and immutable data types in Python with simple explanations and practical examples.">
+  <meta itemprop="datePublished" content="2024-12-27T15:46:13+05:45">
+  <meta itemprop="dateModified" content="2024-12-27T15:46:13+05:45">
+  <meta itemprop="wordCount" content="486">
+  <meta itemprop="keywords" content="Python,Programming,Mutable,Immutable,Memory Management"><meta property="og:url" content="//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/">
+  <meta property="og:site_name" content="Karan">
+  <meta property="og:title" content="Engineering behind Mutable and Immutable in Python">
+  <meta property="og:description" content="Explore the core engineering concepts behind mutable and immutable data types in Python with simple explanations and practical examples.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-27T15:46:13+05:45">
+    <meta property="article:modified_time" content="2024-12-27T15:46:13+05:45">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Mutable">
+    <meta property="article:tag" content="Immutable">
+    <meta property="article:tag" content="Memory Management">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Engineering behind Mutable and Immutable in Python">
+  <meta name="twitter:description" content="Explore the core engineering concepts behind mutable and immutable data types in Python with simple explanations and practical examples.">
+<link rel="stylesheet" type="text/css" media="screen" href="//localhost:1313/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="//localhost:1313/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="//localhost:1313/css/dark.css" />
+
+	<script src="//localhost:1313/js/feather.min.js"></script>
+	
+		<script src="//localhost:1313/js/main.js"></script>
+</head>
+
+
+<body>
+
+
+	
+	<div class="container-wide wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="//localhost:1313/">Karan</a></h1>
+	<div class="site-description"><p>Life, conversations, perspectives, cybersecurity, web technologies, and the little things that catch my interest.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://facebook.com/karankessy/" title="Facebook"><i data-feather="facebook"></i></a></li><li><a href="https://linkedin.com/in/karankessy/" title="Linkedin"><i data-feather="linkedin"></i></a></li><li><a href="https://github.com/karankessy/" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/karankessy/" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags &amp; Stats</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		
+<div class="article-nav" id="article-nav-id">
+    <div class="post">
+        <div class="post-header">
+    
+    <div class="meta">
+        <div class="date">
+            <span class="day">27</span>
+            <span class="rest">Dec 2024</span>
+        </div>
+    </div>
+    
+    <div class="matter">
+        <h1 class="title">Engineering behind Mutable and Immutable in Python</h1>
+    </div>
+</div>
+
+
+        
+        
+        <aside class="toc" id="static-toc">
+            <header>
+                <h3>Contents</h3>
+            </header>
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#what-do-mutable-and-immutable-mean">What Do Mutable and Immutable Mean?</a></li>
+        <li><a href="#example-1-strings-are-immutable">Example 1: Strings Are Immutable</a></li>
+        <li><a href="#example-2-integers-and-memory-allocation">Example 2: Integers and Memory Allocation</a></li>
+        <li><a href="#why-does-this-matter">Why Does This Matter?</a></li>
+        <li><a href="#the-core-engineering-behind-mutability">The Core Engineering Behind Mutability</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </aside>
+        
+
+        <p>If you’ve been programming in Python, you’ve probably come across the terms <em>mutable</em> and <em>immutable</em>. These words might sound casual, but have you ever wondered how mutable is actually mutable? and immutable immutable? Its quite simple once you get the hang of it. Let&rsquo;s break it down and look at the &ldquo;how&rdquo; and &ldquo;why&rdquo; behind these concepts.</p>
+<hr>
+<h3 id="what-do-mutable-and-immutable-mean">What Do Mutable and Immutable Mean?</h3>
+<ul>
+<li><strong>Mutable</strong> means <em>changeable</em>. Data types like lists, sets, and dictionaries can be modified after they are created.</li>
+<li><strong>Immutable</strong> means <em>unchangeable</em>. Data types like strings, integers, and tuples cannot be altered once they are created.</li>
+</ul>
+<p>Now, here’s where it gets interesting: even if a data type is immutable, it doesn’t mean you can’t assign new values to a variable. Let’s go a bit further.</p>
+<hr>
+<h3 id="example-1-strings-are-immutable">Example 1: Strings Are Immutable</h3>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> username <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;karan&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> username
+</span></span><span style="display:flex;"><span><span style="color:#d14">&#39;karan&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> username <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;notkaran&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> username
+</span></span><span style="display:flex;"><span><span style="color:#d14">&#39;notkaran&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Strings are immutable, so when you assign a new value to the variable <code>username</code>, Python doesn’t overwrite the old value. Instead:</p>
+<ol>
+<li>A new memory block is created for the new value <code>&quot;notkaran&quot;</code>.</li>
+<li>The variable <code>username</code> is updated to reference this new block.</li>
+<li>The old value <code>&quot;karan&quot;</code> is left behind and will be deleted later by Python’s garbage collector, but only if no other variable is using it.</li>
+</ol>
+<h4 id="memory-allocation-diagrams">Memory Allocation Diagrams</h4>
+<p>
+  <img src="/images/userkaran.png" alt="karan">
+
+
+<em>when username = &ldquo;karan&rdquo;</em></p>
+<p>
+  <img src="/images/usernotkaran.png" alt="notkaran">
+
+
+<em>after re-assigning the value when username = &ldquo;notkaran&rdquo;</em></p>
+<p>Here, the value <code>&quot;karan&quot;</code> is stored at a different memory location, which will be removed by the garbage collector in Python since no variable is referencing it.</p>
+<hr>
+<h3 id="example-2-integers-and-memory-allocation">Example 2: Integers and Memory Allocation</h3>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> x <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> y <span style="color:#000;font-weight:bold">=</span> x
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> x <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> x
+</span></span><span style="display:flex;"><span><span style="color:#099">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&gt;&gt;&gt;</span> y
+</span></span><span style="display:flex;"><span><span style="color:#099">10</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case:</p>
+<ul>
+<li>Initially, <code>x</code> and <code>y</code> both reference the same value <code>10</code> in memory.</li>
+<li>When you assign <code>20</code> to <code>x</code>, Python creates a new memory block for <code>20</code> and updates <code>x</code> to reference this new block.</li>
+<li>The value <code>10</code> is still in memory because <code>y</code> is referencing it.</li>
+</ul>
+<h4 id="memory-allocation-diagram">Memory Allocation Diagram</h4>
+<p>
+  <img src="/images/xandy.png" alt="xandy">
+
+
+<em>In this case, the value <code>10</code> won’t be deleted as it is being referenced by <code>y</code>.</em></p>
+<hr>
+<h3 id="why-does-this-matter">Why Does This Matter?</h3>
+<p>The distinction between mutable and immutable types is crucial for <strong>Performance</strong> as Immutable objects are often faster because they don&rsquo;t need mechanisms to handle changes. And <strong>Data Safety</strong> is another reason as Immutable types prevent accidental modifications, making them ideal for constants and keys in dictionaries.</p>
+<hr>
+<h3 id="the-core-engineering-behind-mutability">The Core Engineering Behind Mutability</h3>
+<p>At the heart of Python’s design lies its memory management system and here is how it works:</p>
+<ul>
+<li><strong>Mutable types</strong> like lists and dictionaries store data in a memory buffer that can be altered directly.</li>
+<li><strong>Immutable types</strong> don’t allow changes to the data in memory. Instead, new memory is allocated for any modifications.</li>
+</ul>
+<p>This ability to allocate new memory or update existing memory is what makes mutability possible (or impossible) at its core.</p>
+
+
+    </div>
+    <nav class="hide-on-mobile section-nav">
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#what-do-mutable-and-immutable-mean">What Do Mutable and Immutable Mean?</a></li>
+        <li><a href="#example-1-strings-are-immutable">Example 1: Strings Are Immutable</a></li>
+        <li><a href="#example-2-integers-and-memory-allocation">Example 2: Integers and Memory Allocation</a></li>
+        <li><a href="#why-does-this-matter">Why Does This Matter?</a></li>
+        <li><a href="#the-core-engineering-behind-mutability">The Core Engineering Behind Mutability</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </nav>
+</div>
+<div class="post">
+    <hr class="footer-separator" />
+<div class="tags">
+    
+    
+    <ul class="flat">
+        
+        
+        <li class="tag-li"><a href="/tags/python">Python</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/programming">Programming</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/mutable">Mutable</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/immutable">Immutable</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/memory-management">Memory Management</a>
+        </li>
+        
+    </ul>
+    
+    
+</div>
+
+
+<div class="back">
+    <a href="https://github.com/karankessy/blob/master/content/posts%5cpost-12.md" title="github"><i
+            data-feather="github"></i> Edit this on GitHub</a>
+</div>
+
+
+<div class="back">
+    <a href="//localhost:1313/"><span aria-hidden="true">← Back</span></a>
+</div>
+
+
+<div class="back">
+    
+    
+    Next time, we'll talk about <i>"Why developers love dark mode: A shocking truth revealed!"</i>
+    
+    
+</div>
+
+</div>
+
+	</div>
+	
+
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2024 </div>
+		
+	</nav>
+</div><script>feather.replace()</script>
+	
+	<script>
+    var enableTruncate =  true 
+    var filterDepth = false;
+    const MAX_DEPTH = 9; 
+
+    
+    window.addEventListener('DOMContentLoaded', () => {
+        const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+            entries.reverse().forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                if (entry.intersectionRatio > 0) {
+                    var selected = document.querySelectorAll(`nav li a[href="#${id}"]`)
+                    if (selected != null) {
+                        selected.forEach(s => {
+                            if (s != null) {
+                                var depth = getDepth(s.parentElement);
+                                if (filterDepth && depth <= MAX_DEPTH) {
+                                    clearActiveStatesInTableOfContents();
+                                    s.parentElement.classList.add('active')
+                                }
+                            } else if (!filterDepth) {
+                                clearActiveStatesInTableOfContents();
+                                s.parentElement.classList.add('active');
+                            }
+                        }
+                        )
+                    }
+
+                }
+            });
+        });
+        document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]').forEach((section) => {
+            observerForTableOfContentActiveState.observe(section);
+        });
+
+    });
+
+    
+    function isVisible(elem) {
+        if (!(elem instanceof Element)) return false; 
+        const style = getComputedStyle(elem);
+        if (style.display === 'none') return false;
+        if (style.visibility !== 'visible') return false;
+        if (style.opacity < 0.1) return false;
+        if (elem.offsetWidth + elem.offsetHeight + elem.getBoundingClientRect().height +
+            elem.getBoundingClientRect().width === 0) {
+            return false;
+        }
+        const elemCenter = {
+            x: elem.getBoundingClientRect().left + elem.offsetWidth / 2,
+            y: elem.getBoundingClientRect().top + elem.offsetHeight / 2
+        };
+        if (elemCenter.x < 0) return false;
+        if (elemCenter.x > (document.documentElement.clientWidth || window.innerWidth)) return false;
+        if (elemCenter.y < 0) return false;
+        if (elemCenter.y > (document.documentElement.clientHeight || window.innerHeight)) return false;
+        let pointContainer = document.elementFromPoint(elemCenter.x, elemCenter.y);
+        do {
+            if (pointContainer === elem) return true;
+        } while (pointContainer = pointContainer.parentNode);
+        return false;
+    }
+
+
+    function clearActiveStatesInTableOfContents() {
+        document.querySelectorAll('nav li').forEach((section) => {
+            section.classList.remove('active');
+        });
+    }
+
+    function getDepth(parentElement) {
+        var depth = 0;
+        while (parentElement !== null && parentElement.tagName.toLowerCase() !== 'ul') {
+            depth++;
+            parentElement = parentElement.parentElement;
+        }
+        return depth;
+    }
+
+    function navItems() {
+        
+        var nestedListItems = document.querySelectorAll('nav nav li a');
+        return Array.from(nestedListItems).filter(listItem =>
+            listItem.href != null && listItem.hash.startsWith("#")
+        )
+    }
+
+    function lasItemInNavBarVisible() {
+        var lastItem = navItems().slice(-1)[0]
+        return isVisible(lastItem)
+    }
+
+
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        if (!enableTruncate) return;
+        var navBar = navItems()
+        console.log(navBar)
+        if (!lasItemInNavBarVisible()) {
+            filterDepth = true;
+            
+            navBar.forEach(function (listItem) {
+                var depth = getDepth(listItem.parentElement);
+
+                if (depth > MAX_DEPTH) {
+                    listItem.parentElement.classList.add('depth-nested');
+                }
+            });
+        }
+
+    });
+
+</script>
+
+	
+</body>
+
+</html>
