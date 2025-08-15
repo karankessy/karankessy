@@ -11,7 +11,7 @@
     </b>
    </p>
  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=09FF58&center=true&vCenter=true&random=false&width=435&height=60&lines=root%40whited%3A+Hello+World!)](https://git.io/typing-svg)  
+
 
 <p align="left"> <a href="https://twitter.com/karankessy" target="blank"><img src="https://img.shields.io/twitter/follow/karankessy?logo=twitter&style=for-the-badge" alt="karankessy" /></a> </p>
 
