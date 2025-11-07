@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps on Karan</title>
-    <link>//localhost:1313/tags/devops/</link>
+    <link>/tags/devops/</link>
     <description>Recent content in DevOps on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jul 2024 10:30:00 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F5 TMOS Administration Essentials: Critical Concepts to be Remembered</title>
-      <link>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</link>
+      <link>/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</link>
       <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</guid>
+      <guid>/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</guid>
       <description>&lt;p&gt;Ever wondered what happens when a packet arrives at your F5 device? Let&amp;rsquo;s demystify the complex world of F5 TMOS administration and explore the crucial aspects that every administrator should have at their fingertips.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-life-of-a-packet-a-seven-step-journey&#34;&gt;The Life of a Packet: A Seven-Step Journey&lt;/h2&gt;&#xA;&lt;p&gt;Think of packet processing in F5 as a security checkpoint at an airport. Every packet goes through a specific order of processing, and understanding this flow is crucial for effective troubleshooting:&lt;/p&gt;</description>
     </item>
   </channel>

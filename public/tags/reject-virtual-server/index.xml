@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reject Virtual Server on Karan</title>
-    <link>//localhost:1313/tags/reject-virtual-server/</link>
+    <link>/tags/reject-virtual-server/</link>
     <description>Recent content in Reject Virtual Server on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 11:30:00 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/reject-virtual-server/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/reject-virtual-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reject Virtual Servers in BIG-IP LTM: Purpose and Practical Use Cases</title>
-      <link>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
+      <link>/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
       <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
+      <guid>/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
       <description>&lt;p&gt;Efficiency is key in network security and traffic management. Imagine having a gatekeeper at the edge of your network who instantly identifies and blocks unwanted visitors, sparing you the hassle of unnecessary processing or resource consumption. That’s essentially the role of a &lt;strong&gt;Reject Virtual Server (VS)&lt;/strong&gt; in BIG-IP LTM.&lt;/p&gt;&#xA;&lt;p&gt;This blog dives into what makes a Reject Virtual Server unique, its practical use cases, and how it enhances network performance by efficiently handling undesired traffic.&lt;/p&gt;</description>
     </item>
   </channel>

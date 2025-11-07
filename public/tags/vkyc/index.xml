@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VKYC on Karan</title>
-    <link>//localhost:1313/tags/vkyc/</link>
+    <link>/tags/vkyc/</link>
     <description>Recent content in VKYC on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Nov 2024 10:00:00 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/vkyc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/vkyc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</title>
-      <link>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
+      <link>/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
       <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
+      <guid>/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
       <description>&lt;p&gt;Ever had one of those technical problems that just keeps coming back like a persistent itch? That&amp;rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mystery-begins&#34;&gt;The Mystery Begins&lt;/h2&gt;&#xA;&lt;p&gt;Our vKYC application was acting like a finicky door that wouldn&amp;rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.&lt;/p&gt;</description>
     </item>
   </channel>

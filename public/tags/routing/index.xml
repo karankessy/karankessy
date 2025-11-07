@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Routing on Karan</title>
-    <link>//localhost:1313/tags/routing/</link>
+    <link>/tags/routing/</link>
     <description>Recent content in Routing on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Apr 2024 12:13:30 +0545</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/routing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/routing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Three Essential HTTP Routing Patterns</title>
-      <link>//localhost:1313/2024/04/three-essential-http-routing-patterns/</link>
+      <link>/2024/04/three-essential-http-routing-patterns/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/2024/04/three-essential-http-routing-patterns/</guid>
+      <guid>/2024/04/three-essential-http-routing-patterns/</guid>
       <description>&lt;p&gt;HTTP routing is a fundamental concept in web development that determines how web applications handle and direct incoming requests. Let&amp;rsquo;s go through the three primary routing patterns that every web developer should understand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-host-based-routing&#34;&gt;1. Host-Based Routing&lt;/h2&gt;&#xA;&lt;p&gt;Host-based routing, also known as VHOST (Virtual Host) routing, is a pattern where multiple domain names point to the same server or endpoint. This approach is particularly useful for managing multiple services under different domains while utilizing the same infrastructure.&lt;/p&gt;</description>
     </item>
   </channel>

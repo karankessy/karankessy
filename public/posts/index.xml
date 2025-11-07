@@ -2,81 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Karan</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 15:46:13 +0545</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TOON - The New JSON</title>
+      <link>/2025/11/toon-the-new-json/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/2025/11/toon-the-new-json/</guid>
+      <description>&lt;p&gt;JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.&lt;/p&gt;&#xA;&lt;p&gt;But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly &amp;amp; play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebAssembly: Will this replace Docker ?</title>
+      <link>/2024/12/webassembly-will-this-replace-docker/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/2024/12/webassembly-will-this-replace-docker/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Recently, Docker announced the integration of WebAssembly (WASM) technology in a technical preview. This news has sparked many questions in the developer community. Some even wonder if WASM might one day replace Docker or other container technologies.&#xA;&#xA;  &lt;img src=&#34;https://lh5.googleusercontent.com/NUN7Qbg5Rvccm8AgvAvRtnUHzVtS3pcOWJZ24LM_zLP8ac2wBZV5RUVsKb4b7PQwict0hMmZPRp39N_ESdTv9oIuf2tQlIxSPaOa-dIZmDEk_cj8Hy1n0ZfOSElN9WYHbVm7jPIPVOk25xjjaBxGZGc&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, we’ll explore what WebAssembly and Docker are, compare their key features, and look at how they might work together in the future.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-webassembly&#34;&gt;What is WebAssembly?&lt;/h2&gt;&#xA;&lt;p&gt;Imagine being able to run a complex desktop application like Photoshop or Figma directly in your web browser—no downloads or installations required. That’s one of the exciting promises of WebAssembly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Engineering behind Mutable and Immutable in Python</title>
-      <link>//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/</link>
+      <link>/2024/12/engineering-behind-mutable-and-immutable-in-python/</link>
       <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/</guid>
-      <description>&lt;p&gt;If you’ve been programming in Python, you’ve probably come across the terms &lt;em&gt;mutable&lt;/em&gt; and &lt;em&gt;immutable&lt;/em&gt;. These words might sound casual, but have you ever wondered how mutable is actually mutable? and immutable immutable? Its quite simple once you get the hang of it. Let&amp;rsquo;s break it down and look at the &amp;ldquo;how&amp;rdquo; and &amp;ldquo;why&amp;rdquo; behind these concepts.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-do-mutable-and-immutable-mean&#34;&gt;What Do Mutable and Immutable Mean?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mutable&lt;/strong&gt; means &lt;em&gt;changeable&lt;/em&gt;. Data types like lists, sets, and dictionaries can be modified after they are created.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt; means &lt;em&gt;unchangeable&lt;/em&gt;. Data types like strings, integers, and tuples cannot be altered once they are created.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now, here’s where it gets interesting: even if a data type is immutable, it doesn’t mean you can’t assign new values to a variable. Let’s explore this further.&lt;/p&gt;</description>
+      <guid>/2024/12/engineering-behind-mutable-and-immutable-in-python/</guid>
+      <description>&lt;p&gt;If you’ve been programming in Python, you’ve probably come across the terms &lt;em&gt;mutable&lt;/em&gt; and &lt;em&gt;immutable&lt;/em&gt;. These words might sound casual, but have you ever wondered how mutable is actually mutable? and immutable immutable? Its quite simple once you get the hang of it. Let&amp;rsquo;s break it down and look at the &amp;ldquo;how&amp;rdquo; and &amp;ldquo;why&amp;rdquo; behind these concepts.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-do-mutable-and-immutable-mean&#34;&gt;What Do Mutable and Immutable Mean?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mutable&lt;/strong&gt; means &lt;em&gt;changeable&lt;/em&gt;. Data types like lists, sets, and dictionaries can be modified after they are created.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt; means &lt;em&gt;unchangeable&lt;/em&gt;. Data types like strings, integers, and tuples cannot be altered once they are created.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now, here’s where it gets interesting: even if a data type is immutable, it doesn’t mean you can’t assign new values to a variable. Let’s go a bit further.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Guide to Analyzing and Evaluating Reasoning</title>
-      <link>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</link>
+      <link>/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</link>
       <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</guid>
+      <guid>/2024/12/a-guide-to-analyzing-and-evaluating-reasoning/</guid>
       <description>&lt;p&gt;In a world flooded with information, where anyone can create anything and present with or without any credibility, the ability to think analytically has become more critical than ever before. Most of the time our thinking occurs with little or no deliberate effort. In a nutshell, we could almost say we think without thinking. For instance, when offered a choice between black tea and milk tea, I can quickly and easily make a decision based on my personal preferences, without considering any other factors or engaging in critical thinking.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How We Fixed Critical Connectivity Issues in Our vKYC Application: A Technical Deep Dive</title>
-      <link>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
+      <link>/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</link>
       <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
+      <guid>/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
       <description>&lt;p&gt;Ever had one of those technical problems that just keeps coming back like a persistent itch? That&amp;rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mystery-begins&#34;&gt;The Mystery Begins&lt;/h2&gt;&#xA;&lt;p&gt;Our vKYC application was acting like a finicky door that wouldn&amp;rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>F5 TMOS Administration Essentials: Critical Concepts to be Remembered</title>
-      <link>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</link>
+      <link>/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</link>
       <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</guid>
+      <guid>/2024/07/f5-tmos-administration-essentials-critical-concepts-to-be-remembered/</guid>
       <description>&lt;p&gt;Ever wondered what happens when a packet arrives at your F5 device? Let&amp;rsquo;s demystify the complex world of F5 TMOS administration and explore the crucial aspects that every administrator should have at their fingertips.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-life-of-a-packet-a-seven-step-journey&#34;&gt;The Life of a Packet: A Seven-Step Journey&lt;/h2&gt;&#xA;&lt;p&gt;Think of packet processing in F5 as a security checkpoint at an airport. Every packet goes through a specific order of processing, and understanding this flow is crucial for effective troubleshooting:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Trust Authorities in BIG-IP Systems: A Beginner&#39;s Guide</title>
-      <link>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</link>
+      <link>/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</link>
       <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</guid>
+      <guid>/2024/07/understanding-trust-authorities-in-big-ip-systems-a-beginners-guide/</guid>
       <description>&lt;p&gt;In the field of network security, trust isn’t just a word—it&amp;rsquo;s a structure, a foundation that keeps systems working seamlessly and securely. If you’re new to BIG-IP systems, understanding the concept of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt; is crucial. This guide walks you through the essentials, explaining the types of trust authorities and the considerations for setting them up effectively.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-types-of-trust-authorities&#34;&gt;The Types of Trust Authorities&lt;/h2&gt;&#xA;&lt;p&gt;When creating a device trust, you’ll encounter two primary types of &lt;strong&gt;Device Trust Authorities&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reject Virtual Servers in BIG-IP LTM: Purpose and Practical Use Cases</title>
-      <link>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
+      <link>/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</link>
       <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
+      <guid>/2024/06/reject-virtual-servers-in-big-ip-ltm-purpose-and-practical-use-cases/</guid>
       <description>&lt;p&gt;Efficiency is key in network security and traffic management. Imagine having a gatekeeper at the edge of your network who instantly identifies and blocks unwanted visitors, sparing you the hassle of unnecessary processing or resource consumption. That’s essentially the role of a &lt;strong&gt;Reject Virtual Server (VS)&lt;/strong&gt; in BIG-IP LTM.&lt;/p&gt;&#xA;&lt;p&gt;This blog dives into what makes a Reject Virtual Server unique, its practical use cases, and how it enhances network performance by efficiently handling undesired traffic.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Performance HTTP Virtual Servers and the Fast HTTP Profile in BIG-IP</title>
-      <link>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
+      <link>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
       <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
+      <guid>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
       <description>&lt;p&gt;When we talk about application delivery, every microsecond counts. Whether you’re aiming to reduce latency or optimize backend connections, understanding the nuances of &lt;strong&gt;Performance HTTP Virtual Servers&lt;/strong&gt; and the &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt; in BIG-IP can make a significant difference. This guide breaks down these concepts, blending technical clarity with practical insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-performance-http-virtual-server&#34;&gt;What is a Performance HTTP Virtual Server?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Performance HTTP Virtual Server&lt;/strong&gt; is designed for speed. By default, it is assigned a &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt;, which is a leaner version of the standard HTTP profile. Together, they work to minimize backend connections and boost performance under specific traffic conditions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation</title>
-      <link>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
+      <link>/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
+      <guid>/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Three Essential HTTP Routing Patterns</title>
-      <link>//localhost:1313/2024/04/three-essential-http-routing-patterns/</link>
+      <link>/2024/04/three-essential-http-routing-patterns/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/2024/04/three-essential-http-routing-patterns/</guid>
+      <guid>/2024/04/three-essential-http-routing-patterns/</guid>
       <description>&lt;p&gt;HTTP routing is a fundamental concept in web development that determines how web applications handle and direct incoming requests. Let&amp;rsquo;s go through the three primary routing patterns that every web developer should understand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-host-based-routing&#34;&gt;1. Host-Based Routing&lt;/h2&gt;&#xA;&lt;p&gt;Host-based routing, also known as VHOST (Virtual Host) routing, is a pattern where multiple domain names point to the same server or endpoint. This approach is particularly useful for managing multiple services under different domains while utilizing the same infrastructure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>
-      <link>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
+      <link>/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</link>
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
+      <guid>/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=300&amp;amp;q=50&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Alleged Hacked!&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/1/01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/1/01/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

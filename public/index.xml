@@ -6,8 +6,22 @@
     <description>Recent content on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 15:46:13 +0545</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TOON - The New JSON</title>
+      <link>//localhost:1313/2025/11/toon-the-new-json/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>//localhost:1313/2025/11/toon-the-new-json/</guid>
+      <description>&lt;p&gt;JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.&lt;/p&gt;&#xA;&lt;p&gt;But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly &amp;amp; play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebAssembly: Will this replace Docker ?</title>
+      <link>//localhost:1313/2024/12/webassembly-will-this-replace-docker/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>//localhost:1313/2024/12/webassembly-will-this-replace-docker/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Recently, Docker announced the integration of WebAssembly (WASM) technology in a technical preview. This news has sparked many questions in the developer community. Some even wonder if WASM might one day replace Docker or other container technologies.&#xA;&#xA;  &lt;img src=&#34;https://lh5.googleusercontent.com/NUN7Qbg5Rvccm8AgvAvRtnUHzVtS3pcOWJZ24LM_zLP8ac2wBZV5RUVsKb4b7PQwict0hMmZPRp39N_ESdTv9oIuf2tQlIxSPaOa-dIZmDEk_cj8Hy1n0ZfOSElN9WYHbVm7jPIPVOk25xjjaBxGZGc&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, we’ll explore what WebAssembly and Docker are, compare their key features, and look at how they might work together in the future.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-webassembly&#34;&gt;What is WebAssembly?&lt;/h2&gt;&#xA;&lt;p&gt;Imagine being able to run a complex desktop application like Photoshop or Figma directly in your web browser—no downloads or installations required. That’s one of the exciting promises of WebAssembly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Engineering behind Mutable and Immutable in Python</title>
       <link>//localhost:1313/2024/12/engineering-behind-mutable-and-immutable-in-python/</link>
@@ -28,6 +42,13 @@
       <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
       <guid>//localhost:1313/2024/11/how-we-fixed-critical-connectivity-issues-in-our-vkyc-application-a-technical-deep-dive/</guid>
       <description>&lt;p&gt;Ever had one of those technical problems that just keeps coming back like a persistent itch? That&amp;rsquo;s exactly what we faced with our video KYC application. Users were going through a long never-ending buffering repeatedly, and our team was determined to get to the bottom of it. Let me walk you through our journey from chaos to resolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mystery-begins&#34;&gt;The Mystery Begins&lt;/h2&gt;&#xA;&lt;p&gt;Our vKYC application was acting like a finicky door that wouldn&amp;rsquo;t stay shut. Users would connect, only to be left buffering, over and over again. It was like watching a digital game of whack-a-mole, and we needed to stop it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 10</title>
+      <link>//localhost:1313/2024/09/post-10/</link>
+      <pubDate>Thu, 26 Sep 2024 15:41:15 +0545</pubDate>
+      <guid>//localhost:1313/2024/09/post-10/</guid>
+      <description>&lt;h2 id=&#34;threat-classification&#34;&gt;Threat Classification&lt;/h2&gt;&#xA;&lt;p&gt;Threat classification has been a go to process for categorizing security risks or potential dangers based on their level of severity and impact. This helps organizations prioritize their security measures and allocate resources effectively to mitigate the most critical threats.&lt;/p&gt;&#xA;&lt;h3 id=&#34;threat-classification-concepts&#34;&gt;Threat Classification Concepts&lt;/h3&gt;&#xA;&lt;h4 id=&#34;known-knowns&#34;&gt;Known-Knowns&lt;/h4&gt;&#xA;&lt;p&gt;&amp;ldquo;Known-knowns&amp;rdquo; refers to the threats that are known and understood by the organization. These threats are well documented, and mitigation strategies are in place.&lt;/p&gt;</description>
     </item>
     <item>
       <title>F5 TMOS Administration Essentials: Critical Concepts to be Remembered</title>
@@ -84,6 +105,20 @@
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=300&amp;amp;q=50&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Alleged Hacked!&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1/01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1/01/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

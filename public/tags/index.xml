@@ -2,332 +2,395 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Karan</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 15:46:13 +0545</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Immutable</title>
-      <link>//localhost:1313/tags/immutable/</link>
-      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/tags/immutable/</guid>
+      <title>AI</title>
+      <link>/tags/ai/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Memory Management</title>
-      <link>//localhost:1313/tags/memory-management/</link>
-      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/tags/memory-management/</guid>
+      <title>JSON</title>
+      <link>/tags/json/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/json/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mutable</title>
-      <link>//localhost:1313/tags/mutable/</link>
-      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/tags/mutable/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>//localhost:1313/tags/programming/</link>
-      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
-      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
-      <guid>//localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arguments</title>
-      <link>//localhost:1313/tags/arguments/</link>
-      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/arguments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Logical Analysis</title>
-      <link>//localhost:1313/tags/logical-analysis/</link>
-      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/logical-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reasoning</title>
-      <link>//localhost:1313/tags/reasoning/</link>
-      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/reasoning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thinking Skills</title>
-      <link>//localhost:1313/tags/thinking-skills/</link>
-      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/thinking-skills/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>F5 Load Balancer</title>
-      <link>//localhost:1313/tags/f5-load-balancer/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/f5-load-balancer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Firewall Configuration</title>
-      <link>//localhost:1313/tags/firewall-configuration/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/firewall-configuration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network Security</title>
-      <link>//localhost:1313/tags/network-security/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/network-security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Palo Alto</title>
-      <link>//localhost:1313/tags/palo-alto/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/palo-alto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SIP Protocol</title>
-      <link>//localhost:1313/tags/sip-protocol/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/sip-protocol/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical Analysis</title>
-      <link>//localhost:1313/tags/technical-analysis/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/technical-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical Troubleshooting</title>
-      <link>//localhost:1313/tags/technical-troubleshooting/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/technical-troubleshooting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VKYC</title>
-      <link>//localhost:1313/tags/vkyc/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/vkyc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>//localhost:1313/tags/devops/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>F5</title>
-      <link>//localhost:1313/tags/f5/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/f5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Load Balancing</title>
-      <link>//localhost:1313/tags/load-balancing/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/load-balancing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network Administration</title>
-      <link>//localhost:1313/tags/network-administration/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/network-administration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical Infrastructure</title>
-      <link>//localhost:1313/tags/technical-infrastructure/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/technical-infrastructure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TMOS</title>
-      <link>//localhost:1313/tags/tmos/</link>
-      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/tmos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>BIG-IP</title>
-      <link>//localhost:1313/tags/big-ip/</link>
-      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/big-ip/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Configuration</title>
-      <link>//localhost:1313/tags/configuration/</link>
-      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/configuration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>//localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/cybersecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Device Trust</title>
-      <link>//localhost:1313/tags/device-trust/</link>
-      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/device-trust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LTM</title>
-      <link>//localhost:1313/tags/ltm/</link>
-      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/ltm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reject Virtual Server</title>
-      <link>//localhost:1313/tags/reject-virtual-server/</link>
-      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/reject-virtual-server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Traffic Management</title>
-      <link>//localhost:1313/tags/traffic-management/</link>
-      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/traffic-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTTP Profile</title>
-      <link>//localhost:1313/tags/http-profile/</link>
-      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/http-profile/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network Performance</title>
-      <link>//localhost:1313/tags/network-performance/</link>
-      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/network-performance/</guid>
+      <title>LLMs</title>
+      <link>/tags/llms/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/llms/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>//localhost:1313/tags/optimization/</link>
-      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/tags/optimization/</guid>
+      <link>/tags/optimization/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>//localhost:1313/tags/ai/</link>
-      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/ai/</guid>
+      <title>Tokens</title>
+      <link>/tags/tokens/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/tokens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOON</title>
+      <link>/tags/toon/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/tags/toon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerization</title>
+      <link>/tags/containerization/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/tags/containerization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>/tags/kubernetes/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasm</title>
+      <link>/tags/wasm/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/tags/wasm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webassembly</title>
+      <link>/tags/webassembly/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
+      <guid>/tags/webassembly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Immutable</title>
+      <link>/tags/immutable/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>/tags/immutable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory Management</title>
+      <link>/tags/memory-management/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>/tags/memory-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mutable</title>
+      <link>/tags/mutable/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>/tags/mutable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 27 Dec 2024 15:46:13 +0545</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arguments</title>
+      <link>/tags/arguments/</link>
+      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>/tags/arguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logical Analysis</title>
+      <link>/tags/logical-analysis/</link>
+      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>/tags/logical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reasoning</title>
+      <link>/tags/reasoning/</link>
+      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>/tags/reasoning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinking Skills</title>
+      <link>/tags/thinking-skills/</link>
+      <pubDate>Thu, 12 Dec 2024 12:13:30 +0530</pubDate>
+      <guid>/tags/thinking-skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>F5 Load Balancer</title>
+      <link>/tags/f5-load-balancer/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/f5-load-balancer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firewall Configuration</title>
+      <link>/tags/firewall-configuration/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/firewall-configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Security</title>
+      <link>/tags/network-security/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/network-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palo Alto</title>
+      <link>/tags/palo-alto/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/palo-alto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SIP Protocol</title>
+      <link>/tags/sip-protocol/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/sip-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical Analysis</title>
+      <link>/tags/technical-analysis/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/technical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical Troubleshooting</title>
+      <link>/tags/technical-troubleshooting/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/technical-troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VKYC</title>
+      <link>/tags/vkyc/</link>
+      <pubDate>Tue, 26 Nov 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/vkyc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>/tags/devops/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>F5</title>
+      <link>/tags/f5/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/f5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Load Balancing</title>
+      <link>/tags/load-balancing/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/load-balancing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Administration</title>
+      <link>/tags/network-administration/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/network-administration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical Infrastructure</title>
+      <link>/tags/technical-infrastructure/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/technical-infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TMOS</title>
+      <link>/tags/tmos/</link>
+      <pubDate>Thu, 18 Jul 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/tmos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BIG-IP</title>
+      <link>/tags/big-ip/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/big-ip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Configuration</title>
+      <link>/tags/configuration/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>/tags/cybersecurity/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Device Trust</title>
+      <link>/tags/device-trust/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 +0530</pubDate>
+      <guid>/tags/device-trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LTM</title>
+      <link>/tags/ltm/</link>
+      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
+      <guid>/tags/ltm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reject Virtual Server</title>
+      <link>/tags/reject-virtual-server/</link>
+      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
+      <guid>/tags/reject-virtual-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traffic Management</title>
+      <link>/tags/traffic-management/</link>
+      <pubDate>Mon, 17 Jun 2024 11:30:00 +0530</pubDate>
+      <guid>/tags/traffic-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP Profile</title>
+      <link>/tags/http-profile/</link>
+      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/http-profile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Performance</title>
+      <link>/tags/network-performance/</link>
+      <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
+      <guid>/tags/network-performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
-      <link>//localhost:1313/tags/backend/</link>
+      <link>/tags/backend/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/backend/</guid>
+      <guid>/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Deepfakes</title>
-      <link>//localhost:1313/tags/deepfakes/</link>
+      <link>/tags/deepfakes/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/deepfakes/</guid>
+      <guid>/tags/deepfakes/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Identity</title>
-      <link>//localhost:1313/tags/digital-identity/</link>
+      <link>/tags/digital-identity/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/digital-identity/</guid>
+      <guid>/tags/digital-identity/</guid>
       <description></description>
     </item>
     <item>
       <title>Http</title>
-      <link>//localhost:1313/tags/http/</link>
+      <link>/tags/http/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/http/</guid>
+      <guid>/tags/http/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>//localhost:1313/tags/networking/</link>
+      <link>/tags/networking/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/networking/</guid>
+      <guid>/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Online Safety</title>
-      <link>//localhost:1313/tags/online-safety/</link>
+      <link>/tags/online-safety/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/online-safety/</guid>
+      <guid>/tags/online-safety/</guid>
       <description></description>
     </item>
     <item>
       <title>PhotoGuard</title>
-      <link>//localhost:1313/tags/photoguard/</link>
+      <link>/tags/photoguard/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/photoguard/</guid>
+      <guid>/tags/photoguard/</guid>
       <description></description>
     </item>
     <item>
       <title>Routing</title>
-      <link>//localhost:1313/tags/routing/</link>
+      <link>/tags/routing/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/routing/</guid>
+      <guid>/tags/routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdev</title>
-      <link>//localhost:1313/tags/webdev/</link>
+      <link>/tags/webdev/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/tags/webdev/</guid>
+      <guid>/tags/webdev/</guid>
       <description></description>
     </item>
     <item>
       <title>Awareness</title>
-      <link>//localhost:1313/tags/awareness/</link>
+      <link>/tags/awareness/</link>
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/awareness/</guid>
+      <guid>/tags/awareness/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersafety</title>
-      <link>//localhost:1313/tags/cybersafety/</link>
+      <link>/tags/cybersafety/</link>
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/cybersafety/</guid>
+      <guid>/tags/cybersafety/</guid>
       <description></description>
     </item>
     <item>
       <title>Phishing</title>
-      <link>//localhost:1313/tags/phishing/</link>
+      <link>/tags/phishing/</link>
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
-      <guid>//localhost:1313/tags/phishing/</guid>
+      <guid>/tags/phishing/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization on Karan</title>
-    <link>//localhost:1313/tags/optimization/</link>
+    <link>/tags/optimization/</link>
     <description>Recent content in Optimization on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2024 10:30:00 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
+    <atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TOON - The New JSON</title>
+      <link>/2025/11/toon-the-new-json/</link>
+      <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>/2025/11/toon-the-new-json/</guid>
+      <description>&lt;p&gt;JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.&lt;/p&gt;&#xA;&lt;p&gt;But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly &amp;amp; play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Performance HTTP Virtual Servers and the Fast HTTP Profile in BIG-IP</title>
-      <link>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
+      <link>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
       <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
+      <guid>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
       <description>&lt;p&gt;When we talk about application delivery, every microsecond counts. Whether you’re aiming to reduce latency or optimize backend connections, understanding the nuances of &lt;strong&gt;Performance HTTP Virtual Servers&lt;/strong&gt; and the &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt; in BIG-IP can make a significant difference. This guide breaks down these concepts, blending technical clarity with practical insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-performance-http-virtual-server&#34;&gt;What is a Performance HTTP Virtual Server?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Performance HTTP Virtual Server&lt;/strong&gt; is designed for speed. By default, it is assigned a &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt;, which is a leaner version of the standard HTTP profile. Together, they work to minimize backend connections and boost performance under specific traffic conditions.&lt;/p&gt;</description>
     </item>
   </channel>
