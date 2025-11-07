@@ -28,9 +28,7 @@ Taking this as an example:
 ```
 The data’s clear, but the format is heavy, redundant characters are too much. For models, all the extras waste tokens.
 
-### And now what TOON (Token-Oriented Object Notation) does is
-
-It strips out what large language models don’t need, unnecessary curly braces, commas, extra spaces. It just keeps the data, drops the noise.
+And now what TOON (Token-Oriented Object Notation) does is, it just strips out what large language models don’t need, unnecessary curly braces, commas, extra spaces. It just keeps the data, drops the noise.
 
 Like this:
 
@@ -38,11 +36,11 @@ Like this:
 
 With this you allegedly reduce 40-60% of the tokens. Things run faster. It costs less to process, keeps your pocket warm & also CO2 control, much needed one.
 
-![tooning](./images/toon/toon.png)
+![tooning](./images/toon.png)
 
 But the problem is, TOON works best on flat JSON data. If your JSON is nested—one object inside another—flatten it first. If you don’t, TOON can make things worse. You’ll use more tokens; likely 20-30% more, not fewer. 
 
-So, we have to turn this:
+So, we have turn this (Nested JSON):
 
 ```json
 {
@@ -52,9 +50,9 @@ So, we have to turn this:
             "email":"heisenberg@gmail.com"
         }
 }
+```
 
-
-To this:
+To this (Flat Normalized JSON):
 
 ```json
 {
@@ -80,3 +78,4 @@ The point is simple. Better performance, lower cost, less waste. No drama. No bu
 And that’s how we tune and optimize systems to run and not just compile go, not knowing if it is the function or the disease running it.
 
 Know more in detail: [TOON Github](https://github.com/toon-format/toon)
+
