@@ -36,7 +36,7 @@ Like this:
 
 With this you allegedly reduce 40-60% of the tokens. Things run faster. It costs less to process, keeps your pocket warm & also CO2 control, much needed one.
 
-![tooning](./images/toon.png)
+![tooning](../../images/toon.png)
 
 But the problem is, TOON works best on flat JSON data. If your JSON is nested—one object inside another—flatten it first. If you don’t, TOON can make things worse. You’ll use more tokens; likely 20-30% more, not fewer. 
 

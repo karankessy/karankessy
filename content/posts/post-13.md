@@ -25,7 +25,8 @@ Imagine being able to run a complex desktop application like Photoshop or Figma 
 
 - **Easy to Understand:**  
     WebAssembly is a new type of code that lets you run applications built in languages like C, C++, or Rust right in your browser. It works alongside HTML, CSS, and JavaScript, making it possible to bring powerful, high-performance applications online.
-![[Pasted image 20250227174132.png]]
+
+    ![wasmGang](../../images/wasm2.png)
 - **How It Works:**  
     Normally, desktop programs need to be compiled into machine code that your computer can understand. With WASM, developers compile their code into a special binary format that runs quickly and securely in the browser. Tools like Emscripten help convert C programs into WASM files that can run seamlessly online.
     
@@ -57,7 +58,7 @@ Docker is a popular technology that packages your application code along with al
 
 ## Docker vs WebAssembly: Key Comparisons
 
-![[Pasted image 20250227173952.png]]
+![wasmGang2](../../images/wasm3.png)
 
 While Docker and WASM both help package and run applications, they work in different ways:
 
