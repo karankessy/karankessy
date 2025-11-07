@@ -16,6 +16,13 @@
       <description>&lt;p&gt;JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.&lt;/p&gt;&#xA;&lt;p&gt;But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly &amp;amp; play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Three Essential HTTP Routing Patterns</title>
+      <link>//localhost:1313/2025/04/three-essential-http-routing-patterns/</link>
+      <pubDate>Fri, 18 Apr 2025 12:13:30 +0545</pubDate>
+      <guid>//localhost:1313/2025/04/three-essential-http-routing-patterns/</guid>
+      <description>&lt;p&gt;HTTP routing is a fundamental concept in web development that determines how web applications handle and direct incoming requests. Let&amp;rsquo;s go through the three primary routing patterns that every web developer should understand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-host-based-routing&#34;&gt;1. Host-Based Routing&lt;/h2&gt;&#xA;&lt;p&gt;Host-based routing, also known as VHOST (Virtual Host) routing, is a pattern where multiple domain names point to the same server or endpoint. This approach is particularly useful for managing multiple services under different domains while utilizing the same infrastructure.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>WebAssembly: Will this replace Docker ?</title>
       <link>//localhost:1313/2024/12/webassembly-will-this-replace-docker/</link>
       <pubDate>Fri, 27 Dec 2024 15:46:20 +0545</pubDate>
@@ -91,13 +98,6 @@
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
       <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Three Essential HTTP Routing Patterns</title>
-      <link>//localhost:1313/2024/04/three-essential-http-routing-patterns/</link>
-      <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>//localhost:1313/2024/04/three-essential-http-routing-patterns/</guid>
-      <description>&lt;p&gt;HTTP routing is a fundamental concept in web development that determines how web applications handle and direct incoming requests. Let&amp;rsquo;s go through the three primary routing patterns that every web developer should understand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-host-based-routing&#34;&gt;1. Host-Based Routing&lt;/h2&gt;&#xA;&lt;p&gt;Host-based routing, also known as VHOST (Virtual Host) routing, is a pattern where multiple domain names point to the same server or endpoint. This approach is particularly useful for managing multiple services under different domains while utilizing the same infrastructure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recent Surge in Phishing Attacks Targeting Character Assassination</title>

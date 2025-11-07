@@ -1,6 +1,7 @@
 ---
 title: Three Essential HTTP Routing Patterns
-date: 2024-04-18T12:13:30+05:45
+date: 2025-04-18T12:13:30+05:45
+draft: false
 description: HTTP routing patterns - the three crucial approaches (Host-based, Path-based, and Header-based) that determine how web traffic is directed to different services, enabling efficient request handling and service management in modern web architectures.
 tags:
   - webdev

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTTP Profile on Karan</title>
-    <link>/tags/http-profile/</link>
+    <link>//localhost:1313/tags/http-profile/</link>
     <description>Recent content in HTTP Profile on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2024 10:30:00 +0530</lastBuildDate>
-    <atom:link href="/tags/http-profile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/http-profile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Performance HTTP Virtual Servers and the Fast HTTP Profile in BIG-IP</title>
-      <link>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
+      <link>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</link>
       <pubDate>Sun, 09 Jun 2024 10:30:00 +0530</pubDate>
-      <guid>/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
+      <guid>//localhost:1313/2024/06/performance-http-virtual-servers-and-the-fast-http-profile-in-big-ip/</guid>
       <description>&lt;p&gt;When we talk about application delivery, every microsecond counts. Whether you’re aiming to reduce latency or optimize backend connections, understanding the nuances of &lt;strong&gt;Performance HTTP Virtual Servers&lt;/strong&gt; and the &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt; in BIG-IP can make a significant difference. This guide breaks down these concepts, blending technical clarity with practical insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-performance-http-virtual-server&#34;&gt;What is a Performance HTTP Virtual Server?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Performance HTTP Virtual Server&lt;/strong&gt; is designed for speed. By default, it is assigned a &lt;strong&gt;Fast HTTP Profile&lt;/strong&gt;, which is a leaner version of the standard HTTP profile. Together, they work to minimize backend connections and boost performance under specific traffic conditions.&lt;/p&gt;</description>
     </item>
   </channel>

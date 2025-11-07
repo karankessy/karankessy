@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Karan</title>
-    <link>/tags/ai/</link>
+    <link>//localhost:1313/tags/ai/</link>
     <description>Recent content in AI on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
-    <atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TOON - The New JSON</title>
-      <link>/2025/11/toon-the-new-json/</link>
+      <link>//localhost:1313/2025/11/toon-the-new-json/</link>
       <pubDate>Fri, 07 Nov 2025 15:46:20 +0545</pubDate>
-      <guid>/2025/11/toon-the-new-json/</guid>
+      <guid>//localhost:1313/2025/11/toon-the-new-json/</guid>
       <description>&lt;p&gt;JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.&lt;/p&gt;&#xA;&lt;p&gt;But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly &amp;amp; play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Immunize Your Photos: Protecting Yourself from AI Deepfake Manipulation</title>
-      <link>/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
+      <link>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</link>
       <pubDate>Thu, 18 Apr 2024 12:13:30 +0545</pubDate>
-      <guid>/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
+      <guid>//localhost:1313/2024/04/immunize-your-photos-protecting-yourself-from-ai-deepfake-manipulation/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*aNeSOKXPE9bnDrrvPKWTpA.png?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=80&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Morphed Sample&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Have you ever been haunted by the thought of your face being maliciously plastered onto someone else’s body? Or worse, in a situation you’ve never been in?&lt;/p&gt;&#xA;&lt;p&gt;Yeah, we’re getting into the not-so-cool world of AI image editing and Deepfakes. But hold onto your digital hats, because some MIT researchers have cooked up an antidote — the &lt;strong&gt;Immunization Technique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s get real about this and see how you can put your online safety in place!&lt;/p&gt;</description>
     </item>
   </channel>
