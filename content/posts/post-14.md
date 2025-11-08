@@ -12,6 +12,7 @@ tags:
     - Optimization
 ---
 
+
 JSON is everywhere. APIs use it. So do backends and frontends. It is the basic and the default way most of the services talk.
 
 But JSON wasn’t made for large language models. It carries a lot of unnecessary baggage: curly braces, commas, extra spaces. All those were required for programmatic purposes, proper formatted so that it could be indexed properly, parsed properly, read properly & play with all the kinds of logic we want. It help human eyes and programs, but for models they just take up too much tokens.

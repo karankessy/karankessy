@@ -6,8 +6,15 @@
     <description>Recent content on Karan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 15:46:20 +0545</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 15:46:20 +0545</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F5 BIG-IP &#43; Wazuh: Getting Logs Working After 18 Months</title>
+      <link>//localhost:1313/2025/11/f5-big-ip--wazuh-getting-logs-working-after-18-months/</link>
+      <pubDate>Sat, 08 Nov 2025 15:46:20 +0545</pubDate>
+      <guid>//localhost:1313/2025/11/f5-big-ip--wazuh-getting-logs-working-after-18-months/</guid>
+      <description>&lt;p&gt;When hope was almost gone, I decided to give the F5–Wazuh integration one more try.&lt;br&gt;&#xA;Its already been eighteen months since I first had the failure trying integrate it, tried more than 50 times, had nearly convinced me these two were never going to get along.&lt;/p&gt;&#xA;&lt;p&gt;F5 BIG-IP is a good of a solutions when it comes to Web Application Firewall and Load Balancing tasks. I’ve been working with it for over half and a year now — it does its job quite well, protecting applications through real time traffic inspection and respective response enforcement. But it comes with a very real limit when it comes to local log storage at least in this series of F5 WAF which is claimed to be fixed in newer product series. On virtual editions, it caps at 3 million records or 2 GB of database space; on physical systems, it goes to 5 GB.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>TOON - The New JSON</title>
       <link>//localhost:1313/2025/11/toon-the-new-json/</link>
@@ -105,13 +112,6 @@
       <pubDate>Wed, 20 Mar 2024 12:13:30 +0530</pubDate>
       <guid>//localhost:1313/2024/03/recent-surge-in-phishing-attacks-targeting-character-assassination/</guid>
       <description>&lt;figure &gt;&#xA;    &#xA;        &lt;img src=&#34;https://miro.medium.com/v2/resize:fit:828/format:webp/1*DtXqLJvAh5A2TXxhyjR8Aw.jpeg?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=300&amp;amp;q=50&#34; &#xA;             /&gt;&#xA;    &#xA;    &#xA;    &#xA;        &lt;figcaption&gt;&#xA;            &#xA;                Alleged Hacked!&#xA;            &#xA;            &#xA;            &#xA;        &lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;Imagine you’re casually scrolling through your Facebook feed, enjoying updates from friends and family, when suddenly, a notification catches your eye. It’s a post from someone you know, someone you trust — or maybe it’s from that person you secretly admire from afar.&lt;/p&gt;&#xA;&lt;p&gt;Intrigued, you click on it, excited to see what they’ve shared.&lt;/p&gt;&#xA;&lt;p&gt;But wait, something about this post seems off. When you first open it, you’re welcomed by an immersing video that is playing in the background. It seems so alluring and tempting. The trick is that before you can access the content, an apparently innocent inquiry appears and requests your email and password.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>//localhost:1313/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/1/01/</guid>
-      <description></description>
     </item>
     <item>
       <title></title>
