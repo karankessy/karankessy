@@ -22,7 +22,7 @@ I often get surprised when I find people getting disappointed over F5 not storin
 
 Expecting a single product to be both a WAF and a SIEM is like asking a Formula 1 car to tow a truck—technically possible, but you’ll burn the engine before the truck moves.
 
-**And that is where Wazuh comes in.**  
+**And that is where [Wazuh](https://wazuh.com/?utm_source=ambassadors&utm_medium=referral&utm_campaign=ambassadors+program) comes in.**  
 F5 does it all to guard the gate, Wazuh keeps the records. It collects logs, parses them into useful fields, stores them for months or years depends how rich you are, and even alerts you when something suspicious happens. It understands CEF, and so does F5 if you set it to ArcSight mode. On paper, this pairing looked simple.
 
 ---
@@ -131,3 +131,7 @@ Maybe it was an update, maybe a coincidence, at least my ego is not letting I wa
 
 Nothing mystical about it, but after enough retries, even logic seems to respond better when you stop arguing with it.  
 This time, it simply worked. And that was enough.
+
+---
+
+- Be a part of Wazuh Ambassadors Program, if you believe you’re a good fit: [https://wazuh.com/ambassadors-program/](https://wazuh.com/ambassadors-program/?utm_source=ambassadors&utm_medium=referral&utm_campaign=ambassadors+program)
