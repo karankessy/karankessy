@@ -19,7 +19,7 @@
 
 - 🌱 Into Security and Web Technologies  
 
-- ❓ Ask me about anything related to cybersecurity and related technologies  
+- ❓ Ask me about anything related to cybersecurity and system internals & web technologies
   
 - ⚡ Fun fact: I use tabs over spaces  
 
